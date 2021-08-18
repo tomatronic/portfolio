@@ -1,5 +1,5 @@
-import NavBar from "./components/navbar"
-import Footer from "./components/footer"
+import NavBar from "../components/navbar"
+import Footer from "../components/footer"
 import Image from "next/image"
 import Link from "next/link"
 import styles from "./css/404.module.css"

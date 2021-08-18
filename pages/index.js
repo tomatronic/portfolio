@@ -1,7 +1,7 @@
-import NavBar from "./components/navbar"
+import NavBar from "../components/navbar"
 import styles from "./css/home.module.css"
 import Link from "next/link"
-import Footer from "./components/footer"
+import Footer from "../components/footer"
 import React from "react"
 
 function HomePage() {

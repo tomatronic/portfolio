@@ -1,4 +1,4 @@
-import styles from "../css/navbar.module.css"
+import styles from "../pages/css/navbar.module.css"
 import Link from "next/link"
 import ActiveLink from "./activeNav"
 

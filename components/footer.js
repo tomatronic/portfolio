@@ -1,4 +1,4 @@
-import styles from "../css/footer.module.css"
+import styles from "../pages/css/footer.module.css"
 import Email from "/public/footer/email.svg"
 import Linkedin from "/public/footer/linkedin.svg"
 import Dribbble from "/public/footer/dribbble.svg"
