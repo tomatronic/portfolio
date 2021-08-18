@@ -32,6 +32,7 @@ function About() {
                 <p>Currently I work for Rakuten Advertising mainly focusing on the development of affiliate products within the B2B market. Projects involve me working alongside a team spread across the globe, adding a new level of complexity to understanding user needs which can vary greatly across regions. The role allows me to become fully submerged in a problem, learning everything possible about the challenge in order to come up with a solution that will push the companies products further, making them ever more user centric. The end result is a product that leaves a user feeling accomplished, an increased likelihood of them becoming a repeat user and in turn a larger chance of increased revenue for the company.</p>
                 <p>Outside of design I enjoy the great outdoors, whether it is a hike over the South Downs or a casual stroll along the river, I find these settings allow my creative mind to wander, and sometimes allow me to come up with new angles I had not previously considered.</p>
                 <p>I'm always looking for opportunities for collaboration. Reach out and let's chat!</p>
+                <p> Quick Test</p>
             </div>
         </div>
         <Footer />
