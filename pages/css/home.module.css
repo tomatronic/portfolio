@@ -1,0 +1,151 @@
+.introContainer {
+    max-width: 100%;
+    border-left: #916DF9 8px solid;
+    margin: 80px 24px;
+    padding: 10px 24px 45px;
+}
+
+.intro {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.btnintro {
+    margin: 0 24px 0 0;
+}
+
+.blurb {
+    font-size: 18px;
+    margin: 0 0 40px;
+}
+
+.highlight {
+    display: inline;
+    text-decoration: underline;
+    text-decoration-color: #3EE8B5;
+    text-decoration-style: wavy;
+    font-weight: bold;    
+}
+
+.keyPoint {
+    display: inline;
+}
+
+.keyPoint span:hover {
+    color: #3EE8B5;
+    font-style: italic;
+    font-weight: 600;
+}
+
+a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
+    opacity: 80%;
+    transition: 0.3s;
+}
+
+.caseStudy {
+    background-image: url("../../public/offerManagementMock.png");
+    background-color: #916DF9;
+    height: 350px;
+    background-position: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-size: auto 325px;
+    background-origin: content-box;
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 0 24px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px 80px;
+    transition: 0.3s;
+}
+
+.caseStudyRight {
+    background-image: url("../../public/offerManagementMock.png");
+    background-color: #55C1FF;
+    height: 350px;
+    background-position: left; 
+    background-repeat: no-repeat; 
+    background-size: auto 325px;
+    background-origin: content-box;
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 0 24px;
+    color: #FFF;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 24px 80px;
+    transition: 0.3s;
+}
+
+.caseStudy3 {
+    background-image: url("../../public/offerManagementMock.png");
+    background-color: #F6AE2D;
+    height: 350px;
+    background-position: 100% 100%; 
+    background-repeat: no-repeat; 
+    background-size: auto 325px;
+    background-origin: content-box;
+    max-width: 100%;
+    border-radius: 8px;
+    padding: 0 24px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px 80px;
+    transition: 0.3s;
+}
+
+.sectionTitle {
+    font-size: 24px;
+    margin: 40px 0 24px 0;
+}
+
+.csDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 50%;
+    padding: 24px 0;
+}
+
+.csDescriptionRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    max-width: 50%;
+    padding: 24px 0;
+}
+
+.csTitle {
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.csInfo {
+    font-size: 28px;
+    margin: 0;
+}
+
+.csImage {
+    width: 55%;
+}
+
+@media screen and (min-width:600px) { 
+    .introContainer {
+        width: 45%;
+        min-width: 550px;
+    }
+    
+    .intro {
+        font-size: 64px;
+        font-weight: bold;
+    }
+    
+    .blurb {
+        font-size: 24px;
+    }
+
+}

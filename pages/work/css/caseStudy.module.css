@@ -1,0 +1,139 @@
+.imagecontainer {
+    display: grid;
+    background-color: #916DF9;
+    height: 100vh;
+    max-height: 560px;
+    width: 100%;
+  }
+
+  .imagecontainer  > div {
+    position: unset !important;
+  }
+
+  .image {
+    object-fit: contain;
+    max-width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+
+.csTitle {
+    margin: 0 24px;
+}
+
+.csOverview {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0px;
+    margin: 0 24px;
+}
+
+.overview {
+    flex: 1 0 auto;
+}
+
+.overview h2, .section h2 {
+    margin: 24px 0 0;
+}
+
+.role {
+    flex: 1 1 0;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 0px 24px;
+}
+
+.role h3 {
+    margin: 24px 0;
+}
+
+.tags {
+    font-size: 16px;
+}
+
+.section {
+    margin: 0px 24px;
+    padding: 40px 0;
+}
+
+.bgSection {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.pSpacerBottom {
+    margin-bottom: 80px;
+}
+
+.pSpacerTop {
+    margin-top: 80px;
+}
+
+.insights {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.insights .key {
+    flex: 1;
+}
+
+.key h3, .key p {
+    text-align: center;
+}
+
+@media screen and (min-width:600px) {       
+    .csTitle {
+        margin: 0 24px;
+    }
+    
+    .csOverview {
+        display: flex;
+        flex-direction: row;
+        gap: 160px;
+        margin: 0 24px;
+        align-items: center;
+    }
+    
+    .overview {
+        flex: 2 1 0;
+    }
+    
+    .overview h2, .section h2 {
+        margin: 24px 0 0;
+    }
+    
+    .role {
+        flex: 1 1 0;
+        border: 1px solid #e9ecef;
+        border-radius: 8px;
+        padding: 0px 24px 24px;
+    }
+    
+    .role h3 {
+        margin: 24px 0;
+    }
+    
+    .tags {
+        font-size: 16px;
+    }
+    
+    .section {
+        margin: 0px 24px;
+        padding: 40px 0;
+    }
+    
+    .bgSection {
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    .insights {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+}
