@@ -1,7 +1,7 @@
-import NavBar from "../components/navbar"
+import NavBar from "../../components/navbar"
 import styles from "./css/caseStudy.module.css"
 import Image from "next/image"
-import Footer from "../components/footer"
+import Footer from "../../components/footer"
 
 function caseStudy () {
     return (
