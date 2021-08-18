@@ -12,19 +12,13 @@ function NavBar() {
             <nav className={styles.nav}>
               <ul> 
                 <li>
-                  <ActiveLink activeClassName="active" href="/">
-                    <a link="/">Home</a>
-                  </ActiveLink>
+                  <ActiveLink activeClassName="active" href="/"><a link="/">Home</a></ActiveLink>
                 </li>
                 <li>     
-                  <ActiveLink activeClassName="active" href="/#work">
-                    <a href="/#work">Work</a>        
-                  </ActiveLink> 
+                  <ActiveLink activeClassName="active" href="/#work"><a href="/#work">Work</a></ActiveLink> 
                 </li>
                 <li>          
-                  <ActiveLink activeClassName="active" href="/about">
-                    <a link="/about">About</a>
-                  </ActiveLink>  
+                  <ActiveLink activeClassName="active" href="/about"><a link="/about">About</a></ActiveLink>  
                 </li>
               </ul>                      
             </nav>
