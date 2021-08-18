@@ -5,7 +5,7 @@ import ActiveLink from "./activeNav"
 function NavBar() {
     return <>
     <div className={styles['site-header']}>
-      <div className={styles.wrapper} className={styles['site-header__wrapper']}>
+      <div className={`${styles.wrapper} , ${styles['site-header__wrapper']}`}>
             <Link href="/">
               <a link="/" className={styles.logo}>TOM SPENCER</a>
             </Link>

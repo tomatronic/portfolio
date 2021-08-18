@@ -1,7 +1,6 @@
 import NavBar from "./components/navbar"
 import styles from "./css/home.module.css"
 import Link from "next/link"
-import Image from "next/image"
 import Footer from "./components/footer"
 import React from "react"
 
