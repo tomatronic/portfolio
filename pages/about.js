@@ -33,6 +33,33 @@ function About() {
                 <p>Outside of design I enjoy the great outdoors, whether it is a hike over the South Downs or a casual stroll along the river, I find these settings allow my creative mind to wander, and sometimes allow me to come up with new angles I had not previously considered.</p>
                 <p>I'm always looking for opportunities for collaboration. Reach out and let's chat!</p>
                 <p> Quick Test</p>
+                <div className={styles.twocol}>
+                    <div>
+                        <h2>Education</h2>
+                        <p>Bachelor of Arts - Digital Media Design | 2011</p>
+                    </div>
+                    <div>
+                        <h2>Experience</h2>
+                        <p>Rakuten Advertising | Feb 2020 - Present <br />
+                            User Experience Designer
+                        </p>
+                        <p>
+                            Rakuten Advertising | June 2018 - Feb 2020 <br />
+                            Junior User Experience Designer
+                        </p>
+                        <p>
+                            Pure360 | Feb 2016 - Jun 2018 <br />
+                            Senior Creative Developer
+                        </p>
+                        <p>
+                            Pure360 | Jun 2014 - Feb 2016 <br />
+                            Creative Developer
+                        </p>
+                        <p>Friday Media Group | Nov 2014 - Apr 2014 <br />
+                            Email Marketing Creator
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         <Footer />

@@ -27,6 +27,15 @@
     font-weight: bold;    
 }
 
+.twocol {
+    display: flex;
+    gap: 160px;
+}
+
+.twocol div {
+    flex: 1 1 auto;
+}
+
 @media screen and (min-width:600px) { 
     .introContainer {
         width: 45%;

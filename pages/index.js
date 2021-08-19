@@ -23,7 +23,7 @@ function HomePage() {
 
     return <>
     <NavBar />
-    <div className="mainContainer">
+    <div className={styles.mainIntroContainer}>
       <div className={styles.introContainer}>
         <div className={styles.intro}>Hi, I'm Tom.</div>
         <div className={styles.blurb}>
@@ -36,6 +36,8 @@ function HomePage() {
           <Link href="/about"><a href="/about">More about me</a></Link>
         </div>
       </div>
+      </div>
+      <div className="mainContainer">
       <a  name="work" id="work" />
       <div className={styles.section}>
         <Link href="/work/offer-management">

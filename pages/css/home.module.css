@@ -1,3 +1,9 @@
+.mainIntroContainer {
+    max-width: 100%;
+    margin: 0 auto;
+    background: url(../../public/tomspencer.png) no-repeat right center;
+}
+
 .introContainer {
     max-width: 100%;
     border-left: #916DF9 8px solid;
@@ -133,7 +139,14 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
     width: 55%;
 }
 
-@media screen and (min-width:600px) { 
+@media screen and (min-width:600px) {   
+        .mainIntroContainer {
+            max-width: 1200px;
+            width: 100%;
+            margin: 0 auto 80px;
+            height: 400px;
+        }
+
     .introContainer {
         width: 45%;
         min-width: 550px;
