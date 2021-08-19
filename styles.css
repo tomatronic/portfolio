@@ -7,7 +7,7 @@ body {
    margin: 0;
    line-height: 1.6;
    font-size: 18px;
-   background-color:#FFF;
+   background-color:#FAFAFA;
    color: #273959;
    scroll-behavior: smooth;
 }
@@ -72,6 +72,24 @@ button {
    border: none;
    font-size: 16px;
    cursor: pointer;
+}
+
+.underline {
+   font-weight: 600;
+   display: inline-block;
+   padding-bottom: 5px;
+   position: relative;
+   margin-bottom: 40px;
+}
+
+.underline:before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 1px;
+      bottom: 0;
+      left: 0;
+      border-bottom: 3px solid #916DF9;
 }
 
 @media screen and (min-width:600px) {   

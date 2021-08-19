@@ -1,14 +1,23 @@
 .mainIntroContainer {
     max-width: 100%;
-    margin: 0 auto;
-    background: url(../../public/tomspencer.png) no-repeat right center;
+    margin: 0 auto 40px;
 }
 
 .introContainer {
     max-width: 100%;
+    margin: 0 auto;
+    background: url(../../public/tomspencer.png) no-repeat right center;
+    height: 600px;
+}
+
+.introLeft {
+    max-width: 100%;
     border-left: #916DF9 8px solid;
     margin: 80px 24px;
     padding: 10px 24px 45px;
+    width: 100%;
+    max-width: 550px;
+    height: 324px;
 }
 
 .intro {
@@ -62,7 +71,7 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
     color: #FFF;
     display: flex;
     justify-content: space-between;
-    margin: 0 24px 80px;
+    margin: 0 0px 80px;
     transition: 0.3s;
 }
 
@@ -80,7 +89,7 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
     color: #FFF;
     display: flex;
     justify-content: flex-end;
-    margin: 0 24px 80px;
+    margin: 0 0px 80px;
     transition: 0.3s;
 }
 
@@ -98,8 +107,12 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
     color: #FFF;
     display: flex;
     justify-content: space-between;
-    margin: 0 24px 80px;
+    margin: 0 0px 80px;
     transition: 0.3s;
+}
+
+.section{
+    margin: 0 24px;
 }
 
 .sectionTitle {
@@ -141,15 +154,15 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
 
 @media screen and (min-width:600px) {   
         .mainIntroContainer {
-            max-width: 1200px;
-            width: 100%;
-            margin: 0 auto 80px;
-            height: 400px;
+            margin: 0px auto 80px;
+            height: 600px;
+            background-color: #FFF;
         }
 
     .introContainer {
-        width: 45%;
-        min-width: 550px;
+        display: flex;
+        width: 100%;
+        max-width: 1200px;
     }
     
     .intro {

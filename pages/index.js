@@ -25,6 +25,7 @@ function HomePage() {
     <NavBar />
     <div className={styles.mainIntroContainer}>
       <div className={styles.introContainer}>
+        <div className={styles.introLeft}>
         <div className={styles.intro}>Hi, I'm Tom.</div>
         <div className={styles.blurb}>
           <div className={styles.highlight}>UX/UI designer
@@ -37,9 +38,11 @@ function HomePage() {
         </div>
       </div>
       </div>
+      </div>
       <div className="mainContainer">
       <a  name="work" id="work" />
       <div className={styles.section}>
+      <h2 className="underline">Featured Work</h2>
         <Link href="/work/offer-management">
           <a className={styles.csLink}>
           <div className={styles.caseStudy}>
