@@ -6,8 +6,8 @@
 .introContainer {
     max-width: 100%;
     margin: 0 auto;
-    background: url(../../public/tomspencer.png) no-repeat right center;
     height: 600px;
+    display: flex;
 }
 
 .introLeft {
@@ -18,6 +18,10 @@
     width: 100%;
     max-width: 550px;
     height: 324px;
+}
+
+.introRight {
+    display: flex;
 }
 
 .intro {

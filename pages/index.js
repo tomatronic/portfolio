@@ -37,6 +37,9 @@ function HomePage() {
           <Link href="/about"><a href="/about">More about me</a></Link>
         </div>
       </div>
+      <div className={styles.introRight}>
+        <img src="/tomspencer.png" alt="Tom Spencer - UX/UI Designer" />
+      </div>
       </div>
       </div>
       <div className="mainContainer">

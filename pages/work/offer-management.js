@@ -7,13 +7,34 @@ function caseStudy () {
     return (
         <>
             <NavBar />
-            <div className={styles.imagecontainer}>
-                <Image src="/topBanner.png" layout="fill" className={styles.image} />
+            <div className={styles.csIntroBanner}>
+                <div className="mainContainer">
+                    <div className={styles.csIntroduction}>
+                        <div className={styles.csIdentity}>
+                            <h1>Rakuten Advertising Offer Management Dashboard</h1>
+                            
+                        </div>
+                        <div className={styles.csIntroImage}>
+                            <img src="/topBanner.png" layout="fill" className={styles.image} />
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className="mainContainer">
-                <div className={styles.csTitle}>
-                    <h1>Offer Management - Rakuten Advertising</h1>
-                </div>
+            <div className={styles.role}>
+                                <div>
+                                    <h3>Role</h3>
+                                    <p>UX Designer <span className={styles.tags}>(Sole Designer)</span></p>
+                                </div>
+                                <div>
+                                    <h3>Skills Used</h3>
+                                    <p>User Research, Interaction, Visual design, Prototyping &amp; Testing</p>
+                                </div>
+                                <div>
+                                    <h3>Project Duration</h3>
+                                    <p>June 2021 - August 2021</p>
+                                </div>
+                            </div>
                 <div className={styles.csOverview}>
                     <div className={styles.overview}>
                         <h2>Overview</h2>
@@ -21,14 +42,7 @@ function caseStudy () {
                         <h2>Users and Audience</h2>
                     <p>The main users are the marketers that control a brands affiliate programme. They want to ensure they get the best possible return on commission. The users have a strong preference for a fast, easily accessible system.</p>
                     </div>
-                    <div className={styles.role}>
-                        <h3>My Role</h3>
-                        <p>UX Designer <span className={styles.tags}>(Sole Designer)</span></p>
-                        <h3>Skills Used</h3>
-                        <p>User Research, Interaction, Visual design, Prototyping &amp; Testing</p>
-                        <h3>Project Duration</h3>
-                        <p>June 2021 - August 2021</p>
-                    </div>
+                    
                 </div>
                 <div className={styles.section}>
                     

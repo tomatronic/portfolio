@@ -1,9 +1,25 @@
-.imagecontainer {
-    display: grid;
+.csIntroBanner {
+    display: flex;
     background-color: #916DF9;
-    height: 100vh;
-    max-height: 560px;
     width: 100%;
+  }
+
+  .csIntroduction {
+      display: flex;
+      align-items: center;
+  }
+
+  .csIdentity {
+      color: #FFF;
+      flex: 1;
+  }
+
+  .csIdentity h1 {
+      font-size: 48px;
+  }
+
+  .csIntroImage {
+      flex: 1;
   }
 
   .imagecontainer  > div {
@@ -106,14 +122,23 @@
     }
     
     .role {
-        flex: 1 1 0;
+        display: flex;
         border: 1px solid #e9ecef;
         border-radius: 8px;
-        padding: 0px 24px 24px;
+        padding: 24px;
+        margin: 48px 0;
+    }
+
+    .role > * {
+        flex: 1;
     }
     
     .role h3 {
-        margin: 24px 0;
+        margin: 8px 0;
+    }
+
+    .role p {
+        margin: 0;
     }
     
     .tags {
