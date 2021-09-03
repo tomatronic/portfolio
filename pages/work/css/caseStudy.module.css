@@ -122,15 +122,10 @@
     }
     
     .role {
-        display: flex;
         border: 1px solid #e9ecef;
         border-radius: 8px;
         padding: 24px;
         margin: 48px 0;
-    }
-
-    .role > * {
-        flex: 1;
     }
     
     .role h3 {
