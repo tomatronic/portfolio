@@ -6,16 +6,19 @@
 
   .csIntroduction {
       display: flex;
+      flex-direction: column-reverse;
       align-items: center;
+      margin: 0 24px 24px;
   }
 
   .csIdentity {
       color: #FFF;
       flex: 1;
+      text-align: center;
   }
 
   .csIdentity h1 {
-      font-size: 48px;
+      font-size: 32px;
   }
 
   .csIntroImage {
@@ -54,7 +57,10 @@
 
 .role {
     flex: 1 1 0;
-    border: 1px solid #e9ecef;
+    border-left: 3px solid #916DF9;
+    border-top: 1px solid #e9ecef;
+    border-right: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
     border-radius: 8px;
     padding: 0px 24px;
 }
@@ -110,9 +116,24 @@
         flex-direction: row;
         gap: 160px;
         margin: 0 24px;
-        align-items: center;
+        align-items: flex-start;
+    }
+
+    .csIntroduction {
+        flex-direction: row;
+        margin: 24px;
     }
     
+    .csIdentity {
+        color: #FFF;
+        flex: 1;
+        text-align: left;
+    }
+
+    .csIdentity h1 {
+        font-size: 48px;
+    }
+
     .overview {
         flex: 2 1 0;
     }
@@ -122,11 +143,16 @@
     }
     
     .role {
-        border: 1px solid #e9ecef;
+        border-left: 8px solid #916DF9;
+        border-top: 1px solid #e9ecef;
+        border-right: 1px solid #e9ecef;
+        border-bottom: 1px solid #e9ecef;
         border-radius: 8px;
         padding: 24px;
         margin: 48px 0;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
+    
     
     .role h3 {
         margin: 8px 0;

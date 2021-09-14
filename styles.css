@@ -92,6 +92,28 @@ button {
       border-bottom: 3px solid #916DF9;
 }
 
+.underlineCentre {
+   width: 100%;
+   font-weight: 600;
+   display: inline-block;
+   text-align: center;
+   padding-bottom: 5px;
+   position: relative;
+   margin-bottom: 40px;
+}
+
+.underlineCentre:before {
+   content: "";
+   position: absolute;
+   width: 50%;
+   max-width: 100px;
+   height: 1px;
+   bottom: 0;
+   left: 50%;
+   transform: translate(-50%);
+   border-bottom: 3px solid #916DF9;
+}
+
 @media screen and (min-width:600px) {   
    .mainContainer {
        max-width: 1200px;

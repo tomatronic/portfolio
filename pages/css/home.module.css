@@ -6,7 +6,7 @@
 .introContainer {
     max-width: 100%;
     margin: 0 auto;
-    height: 600px;
+    height: auto;
     display: flex;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .introRight {
-    display: flex;
+    display: none;
 }
 
 .intro {
@@ -167,11 +167,16 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
         display: flex;
         width: 100%;
         max-width: 1200px;
+        height: 600px;
     }
     
     .intro {
         font-size: 64px;
         font-weight: bold;
+    }
+
+    .introRight {
+        display: flex;
     }
     
     .blurb {

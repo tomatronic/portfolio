@@ -59,7 +59,7 @@ function caseStudy () {
                 <div className={styles.bgSection}>
                     <div className="mainContainer">
                         <div className={styles.section}>
-                            <h2 className="underline"><center>Points to consider</center></h2>
+                            <h2 className="underlineCentre"><center>Points to consider</center></h2>
                             <div className={styles.insights}>
                                 <div className={styles.key}>
                                     <h3>Ability to compare</h3>
