@@ -53,6 +53,15 @@ ul {
    margin: 0 auto;
 }
 
+.row {
+   display: block;
+   margin: 80px 0;
+}
+
+.column {
+   display: block;
+}
+
 nav ul li a.active {
    font-weight: 500;
    color: #916DF9;
@@ -85,7 +94,7 @@ button {
 .underline:before {
       content: "";
       position: absolute;
-      width: 50%;
+      width: 80px;
       height: 1px;
       bottom: 0;
       left: 0;
@@ -120,4 +129,22 @@ button {
        width: 100%;
        margin: 0 auto;
    }
+
+   .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      column-gap: 160px;
+      margin: 80px 0;
+      align-items: center;
+   }
+   
+   .column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 1;
+   }
+
 }
