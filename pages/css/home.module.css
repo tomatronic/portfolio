@@ -18,6 +18,7 @@
 
 .introImg {
     margin: 0 auto 40px;
+    width: 120px;
     border-radius: 100%;
     box-shadow: rgba(145, 109, 249, 0.2) 0px 2px 8px 0px;
 }
