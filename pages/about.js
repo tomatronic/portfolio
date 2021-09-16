@@ -1,6 +1,5 @@
 import styles from "./css/about.module.css"
 import NavBar from "../components/navbar"
-import Link from "next/link"
 import Footer from "../components/footer"
 
 
