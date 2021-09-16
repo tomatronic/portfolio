@@ -25,9 +25,13 @@ function HomePage() {
     <NavBar />
     <div className={styles.mainIntroContainer}>
       <div className={styles.introContainer}>
-        <div className={styles.introLeft}>
-        <div className={styles.intro}>Hi, I'm Tom.</div>
-        <div className={styles.blurb}>
+        <div className="row">
+          <div className="column">
+            <div className={styles.introImg}>
+              <img src="/tomspencer.png" alt="Tom Spencer - UX/UI Designer" width="120" />
+            </div>
+            <div className={styles.intro}>Hi, I'm Tom.</div>
+            <div className={styles.blurb}>
           <div className={styles.highlight}>UX/UI designer
           </div>
              &nbsp;focused on delivering <div className={styles.keyPoint}><span>effective</span></div> user centric designs that drive engagement.
@@ -36,10 +40,8 @@ function HomePage() {
           <Link href="#work"><button className={styles.btnintro}>See what I do</button></Link>
           <Link href="/about"><a href="/about">More about me</a></Link>
         </div>
-      </div>
-      <div className={styles.introRight}>
-        <img src="/tomspencer.png" alt="Tom Spencer - UX/UI Designer" />
-      </div>
+          </div>
+        </div>
       </div>
       </div>
       <div className="mainContainer">
