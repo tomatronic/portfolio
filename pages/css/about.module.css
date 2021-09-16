@@ -10,6 +10,10 @@
     font-weight: bold;
 }
 
+.bioImg {
+    box-shadow: 30px -30px 0 #3EE8B5;
+}
+
 .btnintro {
     margin: 0 24px 0 0;
 }

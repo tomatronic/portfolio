@@ -32,7 +32,7 @@
 }
 
 .site-header ul li a, .site-header a {
-    margin-right: 1em;
+    margin-right: 0;
     padding: 0.5rem 1rem;
     color: #273959;
     text-decoration: none;
@@ -57,6 +57,10 @@
     .nav {
         align-self: center;
         margin: 0;
+    }
+
+    .site-header ul li a, .site-header a {
+        margin-right: 1em;
     }
 }
 
