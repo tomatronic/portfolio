@@ -149,6 +149,16 @@ button {
       align-items: center;
    }
 
+   .reverse-row-top {
+      display: flex;
+      flex-direction: row-reverse;
+      flex-wrap: wrap;
+      width: 100%;
+      column-gap: 160px;
+      margin: 0;
+      align-items: flex-start;
+   }
+
    .top-row {
       display: flex;
       flex-direction: row-reverse;

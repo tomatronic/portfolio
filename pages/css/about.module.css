@@ -11,7 +11,9 @@
 }
 
 .bioImg {
-    box-shadow: 30px -30px 0 #3EE8B5;
+    box-shadow: none;
+    margin: 40px auto;
+    max-width: 50%;
 }
 
 .btnintro {
@@ -49,6 +51,11 @@
     .intro {
         font-size: 64px;
         font-weight: bold;
+    }
+
+    .bioImg {
+        margin: 70px 0 0;
+        min-width: 100%;
     }
     
     .blurb {

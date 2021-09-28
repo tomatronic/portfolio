@@ -43,11 +43,9 @@ function HomePage() {
           </div>
         </div>
       </div>
-      </div>
-      <div className="mainContainer">
+      </div>      
       <a  name="work" id="work" />
-      <div className={styles.section}>
-      <h2 className="underline">Featured Work</h2>
+      <div className={styles.cs1}>
         <Link href="/work/offer-management">
           <a className={styles.csLink}>
           <div className={styles.caseStudy}>
@@ -58,6 +56,8 @@ function HomePage() {
           </div>
           </a>
         </Link>
+      </div>
+      <div className={styles.cs2}>
         <Link href="/">
           <a className={styles.csLink} href="#">
           <div className={styles.caseStudyRight}>
@@ -68,6 +68,8 @@ function HomePage() {
           </div>
           </a>
         </Link>
+        </div>
+        <div className={styles.cs3}>
         <Link href="/">
           <a className={styles.csLink} href="#">
           <div className={styles.caseStudy3}>
@@ -79,7 +81,6 @@ function HomePage() {
           </a>
         </Link>
       </div>
-    </div>
     <Footer />
     </>   
   }

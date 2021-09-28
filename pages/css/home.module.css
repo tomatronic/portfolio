@@ -56,57 +56,63 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
     transition: 0.3s;
 }
 
+.cs1 {
+    background-color: #d094ff;
+ }
+
+ .cs2 {
+    background-color: #55C1FF;
+ }
+
+ .cs3 {
+    background-color: #F6AE2D;
+ }
+
 .caseStudy {
     background-image: url("../../public/offerManagementMock.png");
-    background-color: #916DF9;
     height: 350px;
-    background-position: 100% 100%; 
+    background-position: 100% 100%;
     background-repeat: no-repeat; 
     background-size: auto 325px;
     background-origin: content-box;
-    max-width: 100%;
-    border-radius: 8px;
+    max-width: 1200px;
     padding: 0 24px;
     color: #FFF;
     display: flex;
     justify-content: space-between;
-    margin: 0 0px 80px;
+    margin: 0 auto;
     transition: 0.3s;
 }
 
 .caseStudyRight {
     background-image: url("../../public/offerManagementMock.png");
-    background-color: #55C1FF;
     height: 350px;
     background-position: left; 
     background-repeat: no-repeat; 
     background-size: auto 325px;
     background-origin: content-box;
-    max-width: 100%;
-    border-radius: 8px;
+    max-width: 1200px;
     padding: 0 24px;
     color: #FFF;
     display: flex;
     justify-content: flex-end;
-    margin: 0 0px 80px;
+    margin: 0 auto;
     transition: 0.3s;
 }
 
 .caseStudy3 {
     background-image: url("../../public/offerManagementMock.png");
-    background-color: #F6AE2D;
     height: 350px;
     background-position: 100% 100%; 
     background-repeat: no-repeat; 
     background-size: auto 325px;
     background-origin: content-box;
-    max-width: 100%;
-    border-radius: 8px;
+    max-width: 1200px;
     padding: 0 24px;
     color: #FFF;
     display: flex;
     justify-content: space-between;
-    margin: 0 0px 80px;
+    margin: 0 auto;
     transition: 0.3s;
 }
 
