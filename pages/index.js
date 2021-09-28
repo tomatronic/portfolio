@@ -3,8 +3,11 @@ import styles from "./css/home.module.css"
 import Link from "next/link"
 import Footer from "../components/footer"
 import React from "react"
+import Head from "next/head"
 
 function HomePage() {
+
+  <Head>Tom Spencer - UX/UI Designer</Head>
   
   React.useEffect(() => {
     const path = window.location.hash
