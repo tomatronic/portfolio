@@ -9,20 +9,41 @@ function caseStudy() {
             <NavBar />
             <div className={styles.csIntroBanner}>
                 <div className="mainContainer">
-                    <div className={styles.csIntroduction}>
-                        <div className={styles.csIdentity}>
-                            <h1>Offer Management Dashboard</h1>
-                            <p>Redesigning how publishers manage affiliate based offers in the <b>Rakuten Advertising</b> ecosystem.</p>
+                    <div className="row">
+                        <div className="nopad-column">
+                            <div className={styles.pill}>
+                                Rakuten Advertising
+                            </div>
+                            <div className={styles.csIdentity}>
+                                <div className="display">Offer <br />Management</div>
+                            </div>
                         </div>
-                        <div className={styles.csIntroImage}>
-                            <img src="/topBanner.png" layout="fill" className={styles.image} />
+                        <div className="nopad-double-column">    
+                            <div className={styles.csIntroImage}>
+                                <img src="/topBanner.png" layout="fill" className={styles.image} />
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="mainContainer">
-                <div className="top-row">
-                    <div className={`${"column"} ${styles.role}`}>
+            <div className={styles.introContainer}>
+                <div className="mainContainer">
+                <div className="notm-row">
+                    <div className="column">
+                        <div className="display">About the project</div>
+                    </div>
+                    <div className="column">
+                        <p>Rakuten Advertising offers a way for users to communicate using a variety of dashboards depending on their needs. These communications allow users to create and manage affiliate marketing across a range of mediums.</p>
+                        <p>This project focused on the redesigning of how publishers manage affiliate based offers within the <b>Rakuten Advertising</b> dashboard.</p>
+                    </div>
+                </div>
+                <div className="row">
+                    <div>
+                        <img src="/coffeeshop.png" layout="fill" className={styles.image} />
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="column">
                         <div>
                             <h3>Role</h3>
                             <p>UX Designer <span className={styles.tags}>(Sole Designer)</span></p>
@@ -37,8 +58,15 @@ function caseStudy() {
                         </div>
                     </div>
                     <div className="double-column">
-                        <h2 className="underline">Overview</h2>
-                        <p>As a user I require a way to manage offers that are available to me from a host of available Advertisers, these may be found in an Advertisers profile or they may contact me directly with an offer proposal. I need to be able to see offers that are currently active as well as offers that may be beneficial to me and my affiliate development.</p>
+                        <div className="display">Overview</div>
+                        <p>As a Publisher (a user that will promote an offer) I require a way to manage offers that are available to me from a host of available Advertisers (A user that wants to promote a business, product or marketing event), these offers are found in an Advertisers profile or the Advertiser may contact me (a Publisher) directly with an offer proposal. I need to be able to see offers that are currently active as well as offers that may be beneficial to me and my affiliate development.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div className="mainContainer">
+                <div className="top-row">                    
+                    <div className="double-column">
                         <h2 className="underline">Users and Audience</h2>
                         <p>The main users are the marketers that control a brands affiliate programme. They want to ensure they get the best possible return on commission. The users have a strong preference for a fast, easily accessible system.</p>
                     </div>

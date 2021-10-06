@@ -41,6 +41,12 @@ ul {
    padding: 0;
 }
 
+.display {
+   font-size: 60px;
+   line-height: 1.5;
+   font-weight: bold;
+   text-transform: uppercase;
+}
 
 .mainContainer {
    max-width: 100%;
@@ -179,12 +185,21 @@ button {
       align-items: flex-start;
    }
 
+   .notm-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      column-gap: 160px;
+      margin: 0;
+      align-items: flex-start;
+   }
+
    .nopad-column {
       display: flex;
       flex-direction: column;
       flex-basis: 100%;
       flex: 1;
-      margin: 0;
+      margin: 0 24px;
    }
    
    .column {
@@ -201,6 +216,14 @@ button {
       flex-basis: 100%;
       flex: 2;
       margin: 0 24px 80px;
+    }
+
+    .nopad-double-column {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex: 2;
+      margin: 0 24px 0px;
     }
 
 }
