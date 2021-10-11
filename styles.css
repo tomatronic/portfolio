@@ -167,7 +167,7 @@ button {
 
    .top-row {
       display: flex;
-      flex-direction: row-reverse;
+      flex-direction: row;
       flex-wrap: wrap;
       width: 100%;
       column-gap: 160px;
