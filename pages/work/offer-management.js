@@ -163,7 +163,7 @@ function caseStudy() {
                 </div>
                 <div className="row">
                     <div className="column">
-                        <Image src="/prototypemap.png" layout="responsive" width="1403" height="931" alt="An example of the complex web of interactions created to allow for testing of the prototype" />
+                        <Image src="/prototypeMap.png" layout="responsive" width="1403" height="931" alt="An example of the complex web of interactions created to allow for testing of the prototype" />
                     </div>
                 </div>
                 <div className="row">
