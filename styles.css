@@ -7,7 +7,7 @@ body {
    margin: 0;
    line-height: 1.6;
    font-size: 18px;
-   background-color:#FAFAFA;
+   background-color:#FFF;
    color: #273959;
    scroll-behavior: smooth;
 }
@@ -24,6 +24,12 @@ a {
 
 a:hover {
    text-decoration: none;
+}
+
+h3 {
+   font-size: 45px;
+   text-transform: uppercase;
+   margin: 0;
 }
 
 img {
@@ -78,6 +84,19 @@ button {
    border: none;
    font-size: 16px;
    cursor: pointer;
+}
+
+.secondary {
+   background-color: transparent;
+   border: 1px solid #916DF9;
+   color: #916DF9;
+   width: fit-content;
+   margin-top: 40px;
+}
+
+.imgRound {
+   border-radius: 8px;
+   box-shadow: rgba(145, 109, 249, 0.2) 0px 2px 8px 0px;
 }
 
 .underline {

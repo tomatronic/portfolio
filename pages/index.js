@@ -41,48 +41,46 @@ function HomePage() {
         </div>
         <div className={styles.btnContainer}>
           <Link href="#work"><button className={styles.btnintro}>See what I do</button></Link>
-          <Link href="/about"><a href="/about">More about me</a></Link>
         </div>
           </div>
         </div>
       </div>
       </div>      
-      <a  name="work" id="work" />
-      <div className={styles.cs1}>
-        <Link href="/work/offer-management">
-          <a className={styles.csLink}>
-          <div className={styles.caseStudy}>
-            <div className={styles.csDescription}>
-              <div className={styles.csTitle}>Case Study</div>
-              <div className={styles.csInfo}>Offer Management - Rakuten Advertising</div>
-            </div>          
+      <a name="work" id="work" />
+      <div className="mainContainer">
+      <div className="row">
+          <div className="column">
+          <div className={styles.csTitle}>Rakuten Advertising</div>
+              <h3>Offer Management</h3>
+              <p>This is a project about some stuff, I need to write something captivating here?</p>
+              <Link href="/work/offer-management"><button className="secondary">View Case Study &#x2192;</button></Link>
           </div>
-          </a>
-        </Link>
+          <div className="column">
+            <img src="/169offers.png" alt="Offer management section of the new dashboard for Rakuten Advertising" className="imgRound" />
+          </div>
       </div>
-      <div className={styles.cs2}>
-        <Link href="/">
-          <a className={styles.csLink} href="#">
-          <div className={styles.caseStudyRight}>
-            <div className={styles.csDescriptionRight}>
-              <div className={styles.csTitle}>Case Study</div>
-              <div className={styles.csInfo}>Another Project - Rakuten Advertising</div>
-            </div>          
+      <div className="row">
+          <div className="column">
+          <div className={styles.csTitle}>It's Brewtiful</div>
+              <h3>Beer Blog</h3>
+              <p>This is a personal project where I set out to capture a range of beers and breweries and talk about both the beer itself and the can (and bottle) designs.</p>
+              <Link href="/work/offer-management"><button className="secondary">View Case Study &#x2192;</button></Link>
           </div>
-          </a>
-        </Link>
-        </div>
-        <div className={styles.cs3}>
-        <Link href="/">
-          <a className={styles.csLink} href="#">
-          <div className={styles.caseStudy3}>
-            <div className={styles.csDescription}>
-              <div className={styles.csTitle}>Case Study</div>
-              <div className={styles.csInfo}>It's Brewtiful - Personal Project</div>
-            </div>          
+          <div className="column">
+            <img src="/offerManagementMock.png" alt="Brewtiful - My own project looking at beers and design" />
           </div>
-          </a>
-        </Link>
+      </div>
+      <div className="row">
+          <div className="column">
+          <div className={styles.csTitle}>Designflows 2021</div>
+              <h3>Coming Soon</h3>
+              <p>Due to this being a competition I am unable to share this case study until March 2022.</p>
+              <Link href="/work/offer-management"><button className="secondary">View Case Study &#x2192;</button></Link>
+          </div>
+          <div className="column">
+            <img src="/offerManagementMock.png" alt="Designflows 2021 - Coming Soon" />
+          </div>
+      </div>
       </div>
     <Footer />
     </>   
