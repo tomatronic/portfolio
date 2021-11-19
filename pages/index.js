@@ -48,37 +48,37 @@ function HomePage() {
       </div>      
       <a name="work" id="work" />
       <div className="mainContainer">
-      <div className="row">
+      <div className="reverse-row">          
+          <div className="column">
+          <Link href="/work/offer-management"><img src="/169offers.png" alt="Offer management section of the new dashboard for Rakuten Advertising" className="imgRound" /></Link>
+          </div>
           <div className="column">
           <div className={styles.csTitle}>Rakuten Advertising</div>
               <h3>Offer Management</h3>
               <p>This is a project about some stuff, I need to write something captivating here?</p>
               <Link href="/work/offer-management"><button className="secondary">View Case Study &#x2192;</button></Link>
           </div>
-          <div className="column">
-            <img src="/169offers.png" alt="Offer management section of the new dashboard for Rakuten Advertising" className="imgRound" />
-          </div>
       </div>
-      <div className="row">
+      <div className="reverse-row">          
+          <div className="column">
+          <Link href="/work/brewtiful"><img src="/169brewtiful.png" alt="Brewtiful - My own project looking at beers and design" className="imgRound" /></Link>
+          </div>
           <div className="column">
           <div className={styles.csTitle}>It's Brewtiful</div>
               <h3>Beer Blog</h3>
               <p>This is a personal project where I set out to capture a range of beers and breweries and talk about both the beer itself and the can (and bottle) designs.</p>
-              <Link href="/work/offer-management"><button className="secondary">View Case Study &#x2192;</button></Link>
-          </div>
-          <div className="column">
-            <img src="/offerManagementMock.png" alt="Brewtiful - My own project looking at beers and design" />
+              <Link href="/work/brewtiful"><button className="secondary">View Case Study &#x2192;</button></Link>
           </div>
       </div>
-      <div className="row">
+      <div className="reverse-row">          
           <div className="column">
-          <div className={styles.csTitle}>Designflows 2021</div>
-              <h3>Coming Soon</h3>
-              <p>Due to this being a competition I am unable to share this case study until March 2022.</p>
-              <Link href="/work/offer-management"><button className="secondary">View Case Study &#x2192;</button></Link>
+            <img src="/169competition.png" alt="Designflows 2021 - Coming Soon" className="imgRound" />
           </div>
           <div className="column">
-            <img src="/offerManagementMock.png" alt="Designflows 2021 - Coming Soon" />
+          <div className={styles.csTitle}>🔒 Hidden Project</div>
+              <h3>Coming Soon</h3>
+              <p>Due to this being a competition I am unable to share this case study until March 2022.</p>
+              <Link href="/work/designflows"><button className="secondary">View Case Study &#x2192;</button></Link>
           </div>
       </div>
       </div>

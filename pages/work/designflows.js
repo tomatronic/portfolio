@@ -12,10 +12,10 @@ function caseStudy() {
                     <div className="row">
                         <div className="nopad-column">
                             <div className={styles.pill}>
-                                Rakuten Advertising
+                                Designflows 2021
                             </div>
                             <div className={styles.csIdentity}>
-                                <div className="display">Offer <br />Management</div>
+                                <div className="display">Tool Hire <br />App</div>
                             </div>
                         </div>
                         <div className="nopad-double-column">    
@@ -33,8 +33,9 @@ function caseStudy() {
                         <div className="display">About the project</div>
                     </div>
                     <div className="column">
-                        <p>Rakuten Advertising offers a way for users to communicate using a variety of dashboards depending on their needs. These communications allow users to create and manage affiliate marketing across a range of mediums.</p>
-                        <p>This project focused on the redesigning of how publishers manage affiliate based offers within the <b>Rakuten Advertising</b> dashboard.</p>
+                        <p>This is a little different to my other case studies as it was a competition in which I had only the weekend to complete the task at hand.</p>
+                        <p>I received access to the brief at 7pm Friday night and had to submit my high fidelity mocks by the following Monday at 10am.</p>
+                        <p>Safe to say that I drank a lot of coffee that weekend...☕</p>
                     </div>
                 </div>
                 <div className="row">
@@ -46,7 +47,7 @@ function caseStudy() {
                     <div className="column">
                         <div>
                             <h4>Role</h4>
-                            <p>UX Designer <span className={styles.tags}>(Sole Designer)</span></p>
+                            <p>UX/UI Designer <span className={styles.tags}>(Sole Designer)</span></p>
                         </div>
                         <div>
                             <h4>Skills Used</h4>
@@ -54,12 +55,12 @@ function caseStudy() {
                         </div>
                         <div>
                             <h4>Project Duration</h4>
-                            <p>June 2021 - August 2021</p>
+                            <p>8 Oct 2021 - 11 Oct 2021</p>
                         </div>
                     </div>
                     <div className="double-column">
                         <div className="display">Overview</div>
-                        <p>As a Publisher (a user that will promote an offer) I require a way to manage offers that are available to me from a host of available Advertisers (A user that wants to promote a business, product or marketing event), these offers are found in an Advertisers profile or the Advertiser may contact me (a Publisher) directly with an offer proposal. I need to be able to see offers that are currently active as well as offers that may be beneficial to me and my affiliate development.</p>
+                        <p>The brief itself requested a new mobile app to be designed to allow a user to hire a toolkit from a location for a specific task. For example I may need to put some shelves up, I would visit this app and find a location to pick a toolkit up containing required tools from a specified pick up location.</p>
                     </div>
                 </div>
                 </div>
