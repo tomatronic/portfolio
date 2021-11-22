@@ -49,9 +49,10 @@ ul {
 
 .display {
    font-size: 60px;
-   line-height: 1.5;
+   line-height: 1.2;
    font-weight: bold;
    text-transform: uppercase;
+   margin: 16px 0;
 }
 
 .mainContainer {

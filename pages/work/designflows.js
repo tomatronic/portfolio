@@ -39,11 +39,6 @@ function caseStudy() {
                     </div>
                 </div>
                 <div className="row">
-                    <div>
-                        <img src="/coffeeshop.png" layout="fill" className={styles.image} />
-                    </div>
-                </div>
-                <div className="row">
                     <div className="column">
                         <div>
                             <h4>Role</h4>
@@ -175,16 +170,23 @@ function caseStudy() {
                 </div>
                 <div className="row">
                     <div className="column">
-                        <h2 className="display">User testing</h2>
-                        <p>After performing a number of protoype testing sessions I came to the conclusion a couple of further design adjustments were required. This involved a round of iterations to ensure functionality was highlighted in a relevant way and that offers were made easier to compare with existing options.</p>
+                        <h2 className="display">App icon</h2>
+                        <p>This was an area of the project I struggled. I have not had to design an app icon before which meant there was a bit of learning curve.</p>
+                        <p>The initial step here was to make sure I was working to correct dimensions. I then spent some time understanding what was needed to create an app icon that stands out.</p>
+                        <p>I spent a lot of effort and made many iterations to icon. I ended up settling on a simple icon that used the colour palette from the app to ensure a consistant expereince.</p>
                     </div>
                 </div>
                 <div className="row">
                     <div className="column">
+                    <Image src="/dfFinal.png" layout="responsive" width="1403" height="931" alt="Designflows final submission 2021" />
                         <h2 className="display">Outcome</h2>
-                        <p>Since the updated offer management flow and UI has been implemented we have seen a reduction in the amount of support tickets raised, and account managers have reported less queries based around offer management. The account management have said that this reduction in queries has led to them having more time to focus on the users needs and build better relationships with them.</p>
-                        <p>The product has only been released recently so I will continue to monitor usage through the FullStory application, allowing me to perform iterative design amends to ensure a continual progression to the applications development.</p>
-                    </div>
+                        <p>Overall I am happy with the result. However, I wish I had more time to perfect this.</p>
+                        <p>The initial area I would have spent more time on would have been the research phase, I would have liked to have gained a better understanding of the competitor landscape. The addition of user interviews would have also assisted in the research and the end result.</p>                    </div>
+                </div>
+                <div className="row">
+                    <div className="column">
+                        <h2 className="display">Final thoughts</h2>
+                        <p>The competition was fun, and I will be looking out for the event again later this year. However, in the meantime I will take the judges feedback onboard and possibly revisit this project at a later date to try and improve the final result.</p>                    </div>
                 </div>
             </div>
             <Footer />

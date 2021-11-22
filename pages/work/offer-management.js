@@ -42,7 +42,7 @@ function caseStudy() {
                         <img src="/coffeeshop.png" layout="fill" className={styles.image} />
                     </div>
                 </div>
-                <div className="row">
+                <div className="notm-row">
                     <div className="column">
                         <div>
                             <h4>Role</h4>
@@ -65,7 +65,7 @@ function caseStudy() {
                 </div>
             </div>
             <div className="mainContainer">
-                <div className="row">
+                <div className="notm-row">
                     <div className="column">
                     <div className="display">Discovery</div>
                     </div>                  
@@ -91,7 +91,7 @@ function caseStudy() {
             </div>
             <div className={styles.bgSection}>
                 <div className="mainContainer">
-                    <div className="top-row">
+                    <div className="notm-row">
                     <div className="column">
                             <h2 className="display">Goals</h2>
                             <p>As a result of the survey data I was able to identify three main goals to focus on.</p>
@@ -114,7 +114,7 @@ function caseStudy() {
                 </div>
             </div>
             <div className="mainContainer">
-                <div className="row">                    
+                <div className="notm-row">                    
                     <div className="column">
                         <h2 className="display">Planning</h2>
                     </div>
@@ -127,7 +127,7 @@ function caseStudy() {
                         <Image src="/flowchart.png" layout="responsive" width="1116" height="766" alt="Simple flowchart of a proposed solution" />
                     </div>                    
                 </div>
-                <div className="row">                    
+                <div className="notm-row">                    
                     <div className="column">
                         <h2 className="display">sketching</h2>
                     </div>
@@ -140,7 +140,7 @@ function caseStudy() {
                         <Image src="/sketches.png" layout="responsive" width="1116" height="766" alt="Initial sketches and ideas - A bit messy but helps me gather thoughts" />
                     </div>
                 </div>
-                <div className="row">                    
+                <div className="notm-row">                    
                     <div className="column">
                         <h2 className="display">prototypes</h2>
                     </div>
@@ -153,7 +153,7 @@ function caseStudy() {
                         <Image src="/digitalwireframe.png" layout="responsive" width="1116" height="766" alt="Simple flowchart of a proposed solution" />
                     </div>
                 </div>
-                <div className="row">                    
+                <div className="notm-row">                    
                     <div className="column">
                         <h2 className="display">Flow iteration</h2>
                     </div>
