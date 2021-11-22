@@ -29,6 +29,12 @@
     width: 100%;
   }
 
+  .csIntroBannerDesignFlows {
+      display: flex;
+      background-color: #264654;
+      width: 100%;
+  }
+
   .csIntroduction {
       display: flex;
       flex-direction: column-reverse;

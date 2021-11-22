@@ -7,7 +7,7 @@ function caseStudy() {
     return (
         <>
             <NavBar />
-            <div className={styles.csIntroBanner}>
+            <div className={styles.csIntroBannerDesignFlows}>
                 <div className="mainContainer">
                     <div className="row">
                         <div className="nopad-column">
@@ -60,7 +60,13 @@ function caseStudy() {
                     </div>
                     <div className="double-column">
                         <div className="display">Overview</div>
-                        <p>The brief itself requested a new mobile app to be designed to allow a user to hire a toolkit from a location for a specific task. For example I may need to put some shelves up, I would visit this app and find a location to pick a toolkit up containing required tools from a specified pick up location.</p>
+                        <p>The brief itself requested a new mobile app to be designed to allow a user to hire a toolkit from a location nearby for a specific task.</p>
+                        <p>For example I may need to put some shelves up, I would visit this app and find a location to pick a toolkit up containing required tools from a specified pick up location.</p>
+                        <p>The brief specified 3 specific pages that required designing:</p>
+                        <p>&bull; <b>Toolkit rental</b> - This had to include a search bar<br/>
+                        &bull; <b>My rentals</b> - Manage and rack bookings<br/> 
+                        &bull; <b>How it works</b> - Instructions on how to collect a toolkit</p>
+                        <p>As well as an app icon and a poster that presented the screens.</p>
                     </div>
                 </div>
                 </div>
