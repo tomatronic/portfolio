@@ -1,5 +1,4 @@
 import App from "next/app"
-import Head from "next/head"
 import "../styles.css"
 import Cookies from "universal-cookie"
 import consts from "../consts"

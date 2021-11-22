@@ -1,6 +1,6 @@
 import styles from "../pages/css/navbar.module.css"
 import Link from "next/link"
-import ActiveLink from "./activeNav"
+
 
 function NavBar() {
     return <>
@@ -12,13 +12,13 @@ function NavBar() {
             <nav className={styles.nav}>
               <ul> 
                 <li>
-                  <ActiveLink activeClassName="active" href="/"><a link="/"> Home </a></ActiveLink>
+                  <a link="/"> Home </a>
                 </li>
                 <li>     
-                  <ActiveLink activeClassName="active" href="/#work"><a href="/#work"> Work </a></ActiveLink> 
+                  <a href="/#work"> Work </a> 
                 </li>
                 <li>          
-                  <ActiveLink activeClassName="active" href="/about"><a link="/about"> About </a></ActiveLink>  
+                  <a link="/about"> About </a> 
                 </li>
               </ul>                      
             </nav>
