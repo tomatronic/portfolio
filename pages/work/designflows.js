@@ -2,17 +2,8 @@ import NavBar from "../../components/navbar"
 import styles from "./css/caseStudy.module.css"
 import Image from "next/image"
 import Footer from "../../components/footer"
-import { useRouter } from "next/router"
-import Login from "../../components/login"
 
-
-export default function caseStudy({ hasReadPermission }) {
-    const router = useRouter();
-  
-    if (!hasReadPermission) {
-      return <Login redirectPath={router.asPath} />;
-    }
-
+function caseStudy() {
     return (
         <>
             <NavBar />
@@ -192,6 +183,7 @@ export default function caseStudy({ hasReadPermission }) {
             </div>
             <Footer />
         </>
-    );
+    )
 }
 
+export default caseStudy
