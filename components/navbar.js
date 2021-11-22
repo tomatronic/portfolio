@@ -1,5 +1,5 @@
 import styles from "../pages/css/navbar.module.css"
-import Link from "next/link"
+
 
 
 function NavBar() {
