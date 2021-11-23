@@ -5,11 +5,13 @@
 }
 
 .introContainer {
-    max-width: 100%;
+    width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
     background-color: #FFF;
     color: #273959;
-    padding-top: 80px;
+    padding-top: 24px;
+    border-bottom: #264654 1px solid;
  }
 
  .pill {
@@ -52,6 +54,13 @@
 
   .csIntroImage {
       flex: 1;
+  }
+
+  .bgRow {
+      background-color: #916DF9;
+      border-radius: 20px;
+      color: #FFF;
+      padding: 80px 56px 0;
   }
 
   .image {
