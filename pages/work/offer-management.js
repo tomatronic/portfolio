@@ -17,12 +17,7 @@ function caseStudy() {
                             <div className={styles.csIdentity}>
                                 <div className="display">Offer <br />Management</div>
                             </div>
-                        </div>
-                        <div className="nopad-double-column">    
-                            <div className={styles.csIntroImage}>
-                                <img src="/topBanner.png" layout="fill" className={styles.image} />
-                            </div>
-                        </div>
+                        </div>                        
                     </div>
                 </div>
             </div>

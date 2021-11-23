@@ -7,7 +7,10 @@ import Head from "next/head"
 
 function HomePage() {
 
-  <Head>Tom Spencer - UX/UI Designer</Head>
+  <Head>
+    <title>Tom Spencer - UX/UI Designer</title>
+    <meta property="og:title" content="Tom Spencer - Ux / UI Designer" />
+  </Head>
   
   React.useEffect(() => {
     const path = window.location.hash
