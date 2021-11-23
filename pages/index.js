@@ -7,10 +7,6 @@ import Head from "next/head"
 
 function HomePage() {
 
-  <Head>
-    <title>Tom Spencer - UX/UI Designer</title>
-    <meta property="og:title" content="Tom Spencer - Ux / UI Designer" />
-  </Head>
   
   React.useEffect(() => {
     const path = window.location.hash
@@ -28,6 +24,11 @@ function HomePage() {
   })
 
     return <>
+  <div>
+  <Head>
+    <title>Tom Spencer - UX/UI Designer</title>
+    <meta property="og:title" content="Tom Spencer - Ux / UI Designer" />
+  </Head>
     <NavBar />
     <div className={styles.mainIntroContainer}>
       <div className={styles.introContainer}>
@@ -86,6 +87,7 @@ function HomePage() {
       </div>
       </div>
     <Footer />
+    </div>
     </>   
   }
   
