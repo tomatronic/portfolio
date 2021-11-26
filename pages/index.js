@@ -68,7 +68,7 @@ function HomePage() {
           <Link href="/work/brewtiful"><img src="/169brewtiful.png" alt="Brewtiful - My own project looking at beers and design" className="imgRound" /></Link>
           </div>
           <div className="column">
-          <div className={styles.csTitle}>It's Brewtiful</div>
+          <div className={styles.csTitle}>Brewtiful</div>
               <h3>Beer Blog</h3>
               <p>This is a personal project where I set out to capture a range of beers and breweries and talk about both the beer itself and the can (and bottle) designs.</p>
               <Link href="/work/brewtiful"><button className="secondary">View Case Study &#x2192;</button></Link>

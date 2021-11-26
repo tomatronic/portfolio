@@ -1,9 +1,3 @@
-.tempBox{
-    width: 100%;
-    height: 900px;
-    background-color: #916DF9;
-}
-
 .introContainer {
     width: 100%;
     max-width: 1140px;
@@ -14,23 +8,20 @@
     border-bottom: #264654 1px solid;
  }
 
- .pill {
-     background-color: #FFF;
-     text-transform: uppercase;
-     font-size: 16px;
-     color: #916DF9;
-     border-radius: 8px;
-     width: 194px;
-     margin: 0 0 24px;
-     padding: 0 18px;
- }
-
 .csIntroBanner {
     display: flex;
     background-image: url("../../../public/coffeeshop.png");
     background-size: cover;
     width: 100%;
-    min-height: 500px;
+    min-height: 240px;
+  }
+
+  .csIntroBannerdf {
+    display: flex;
+    background-image: url("../../../public/dfbg.png");
+    background-size: cover;
+    width: 100%;
+    min-height: 240px;
   }
 
   .csIntroBannerDesignFlows {
@@ -39,170 +30,53 @@
       width: 100%;
   }
 
-  .csIntroduction {
-      display: flex;
-      flex-direction: column-reverse;
-      align-items: center;
-      margin: 0 24px 24px;
-  }
-
-  .csIdentity {
-      color: #FFF;
-      flex: 1;
-      text-align: center;
-  }
-
-  .csIntroImage {
-      flex: 1;
-  }
-
   .bgRow {
       background-color: #916DF9;
-      border-radius: 20px;
+      border-radius: 0;
       color: #FFF;
-      padding: 80px 56px 0;
+      padding: 48px 0;
+      margin: 0;
   }
 
-  .image {
-    object-fit: contain;
-    max-width: 100% !important;
-    position: relative !important;
-    height: unset !important;
-  }
-
-.csOverview {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 0px;
-    margin: 0 24px;
-}
-
-.overview {
-    flex: 1 0 auto;
-}
-
-.overview h2, .section h2 {
-    margin: 24px 0 0;
-}
-
-.role {
-    flex: 1 1 0;
-    border-left: 8px solid #916DF9;
-    border-top: 1px solid #e9ecef;
-    border-right: 1px solid #e9ecef;
-    border-bottom: 1px solid #e9ecef;
-    border-radius: 8px;
-    padding: 24px;
-    margin-top: 24px;
-}
-
-.role h3 {
-    margin: 8px 0;
-}
-
-.role p {
+  .bgRowdf {
+    background-color: #E9C46A;
+    border-radius: 0;
+    padding: 48px 0;
     margin: 0;
 }
 
-.tags {
-    font-size: 16px;
-}
-
-.section {
-    margin: 0px 24px;
-    padding: 40px 0;
-}
-
-.bgSection {
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 40px 0;
-}
-
-.pSpacerBottom {
-    margin-bottom: 80px;
-}
-
-.pSpacerTop {
-    margin-top: 80px;
-}
-
-.insights {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-}
-
-.insights .key {
-    flex: 1;
-}
-
-.key h3, .key p {
-    text-align: center;
-}
+  .imgRound {
+      border-radius: 20px;
+  }
 
 @media screen and (min-width:600px) {
-    
-    .csOverview {
-        display: flex;
-        flex-direction: row;
-        gap: 160px;
-        margin: 0 24px;
-        align-items: flex-start;
-    }
 
-    .csIntroduction {
-        flex-direction: row;
-        margin: 24px;
-    }
-    
-    .csIdentity {
+    .csIntroBanner {
+        display: flex;
+        background-image: url("../../../public/coffeeshop.png");
+        background-size: cover;
+        width: 100%;
+        min-height: 500px;
+      }
+
+      .csIntroBannerdf {
+        display: flex;
+        background-image: url("../../../public/dfbg.png");
+        background-size: cover;
+        width: 100%;
+        min-height: 500px;
+      }
+
+      .bgRow {
+        background-color: #916DF9;
+        border-radius: 20px;
         color: #FFF;
-        flex: 1;
-        text-align: left;
+        padding: 80px 56px 0;
     }
 
-    .csIdentity h1 {
-        font-size: 48px;
-    }
-
-    .overview {
-        flex: 2 1 0;
-    }
-    
-    .overview h2, .section h2 {
-        margin: 24px 0 0;
-    }
-    
-    .role {
-        border-left: 8px solid #916DF9;
-        border-top: 1px solid #e9ecef;
-        border-right: 1px solid #e9ecef;
-        border-bottom: 1px solid #e9ecef;
-        border-radius: 8px;
-        padding: 24px;
-        margin: 48px 0;
-        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    }
-    
-    .tags {
-        font-size: 16px;
-    }
-    
-    .section {
-        margin: 0px 24px;
-        padding: 40px 0;
-    }
-    
-    .bgSection {
-        background-color: #f4f4f4;
-        margin: 0;
-        padding: 40px 0;
-    }
-
-    .insights {
-        display: flex;
-        flex-direction: row;
-        gap: 80px;
+    .bgRowdf {
+        background-color: #E9C46A;
+        border-radius: 20px;
+        padding: 80px 56px 0;
     }
 }
