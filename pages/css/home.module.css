@@ -4,16 +4,18 @@
 }
 
 .introContainer {
-    max-width: 100%;
+    max-width: 700px;
     margin: 0 auto;
     height: auto;
     display: flex;
-    text-align: center;
+    text-align: left;
 }
 
 .intro {
     font-size: 48px;
     font-weight: bold;
+    margin: 0;
+    line-height: 1.2;
 }
 
 .introImg {
@@ -29,7 +31,7 @@
 
 .blurb {
     font-size: 18px;
-    margin: 0 auto 40px;
+    margin: 0;
     max-width: 600px;
 }
 
@@ -115,16 +117,17 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
 
 @media screen and (min-width:600px) {   
         .mainIntroContainer {
-            margin: 0px auto 80px;
-            height: 600px;
+            display: flex;
+            margin: 0px auto;
+            height: calc(100vh - 70px);
             background-color: #FFF;
+            align-items: center;
         }
 
     .introContainer {
         display: flex;
         width: 100%;
-        max-width: 800px;
-        height: 600px;
+        max-width: 700px;
     }
     
     .intro {
@@ -133,7 +136,7 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
     }
     
     .blurb {
-        font-size: 24px;
+        font-size: 20px;
     }
 
 }
