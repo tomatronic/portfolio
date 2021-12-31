@@ -44,8 +44,9 @@ function HomePage() {
             <div className={styles.blurb}>
           <br /><div className={styles.highlight}>UX/UI designer
           </div>
-             &nbsp;focused on delivering <div className={styles.keyPoint}><span>effective</span></div> user centric designs that drive engagement.<br /><br /><br/>
+             &nbsp;focused on delivering <div className={styles.keyPoint}><span>effective</span></div> user centric designs that drive engagement.<br /><br />Currently UX Designer @ <b>Rakuten Advertising</b>.<br/><br /><br />
         </div>
+      
         <div className={styles.btnContainer}>
           <Link href="#work"><button className={styles.btnintro}>See my case studies</button></Link>
         </div>
@@ -55,6 +56,17 @@ function HomePage() {
       </div>      
       <a name="work" id="work" />
       <div className="mainContainer">
+      <div className="row">          
+          <div className="column">
+          <Link href="/work/designflows"><img src="/169competition.png" alt="Designflows 2021 - Coming Soon" className="imgRound" /></Link>
+          </div>
+          <div className="column">
+          <div className={styles.csTitle}>Designflows 2021</div>
+              <h3>Tool Hire App</h3>
+              <p>A competition project to create a unique UI within a short amount of time.</p>
+              <Link href="/work/designflows"><button className="secondary">View Case Study &#x2192;</button></Link>
+          </div>
+      </div>
       <div className="row">          
           <div className="column">
           <Link href="/work/offer-management"><img src="/169offers.png" alt="Offer management section of the new dashboard for Rakuten Advertising" className="imgRound" /></Link>
@@ -75,17 +87,6 @@ function HomePage() {
               <h3>Beer Blog</h3>
               <p>A personal project where I set out to capture a range of beers and breweries and talk about both the beer itself and the can (and bottle) designs.</p>
               <Link href="/work/brewtiful"><button className="secondary">View Case Study &#x2192;</button></Link>
-          </div>
-      </div>
-      <div className="row">          
-          <div className="column">
-          <Link href="/work/designflows"><img src="/169competition.png" alt="Designflows 2021 - Coming Soon" className="imgRound" /></Link>
-          </div>
-          <div className="column">
-          <div className={styles.csTitle}>Designflows 2021</div>
-              <h3>Tool Hire App</h3>
-              <p>A competition project to create a unique UI within a short amount of time.</p>
-              <Link href="/work/designflows"><button className="secondary">View Case Study &#x2192;</button></Link>
           </div>
       </div>
       </div>

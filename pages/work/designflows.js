@@ -103,7 +103,7 @@ function caseStudy() {
                         <br /><br/>
                         <h1>Outcome</h1>
                         <p>Overall I am happy with the result. However, I wish I had more time to perfect this.</p>
-                        <p>The initial area I would have spent more time on would have been the research phase, I would have liked to have gained a better understanding of the competitor landscape. The addition of user interviews would have also assisted in the research and the end result.</p>
+                        <p>The initial area I would have spent more time on would have been the research phase, I would have liked to have gained a better understanding of the competitor landscape. The addition of user interviews would have also assisted in the research and the end result. I also think I could of come up with a more refined color palette and framework for the project, but this may of been a stretch to achieve given the time constraint.</p>
                         <br />
                         <h1>Final thoughts</h1>
                         <p>The competition was fun, and I will be looking out for the event again later this year. However, in the meantime I will take the judges feedback onboard and possibly revisit this project at a later date to try and improve the final result.</p>
