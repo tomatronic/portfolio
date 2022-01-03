@@ -50,6 +50,8 @@ function HomePage() {
         <div className={styles.btnContainer}>
           <Link href="#work"><button className={styles.btnintro}>See my case studies</button></Link>
         </div>
+        <br />
+        <i>Alternatively, you can check out some of my UI projects on <a href="https://dribbble.com/tomatronic" target="_blank" rel="noreferrer" >Dribbble</a> and my professional achievements on <a href="https://www.linkedin.com/in/thomas-spencer/" target="_blank" rel="noreferrer">Linkedin</a>.</i>
           </div>
         </div>
       </div>

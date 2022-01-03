@@ -161,6 +161,7 @@ button {
 }
 
 .column-image {
+   margin: 40px auto 0;
    max-width: 120px;
 }
 
@@ -271,5 +272,10 @@ button {
       flex: 2;
       margin: 0 24px 0px;
     }
+
+    .column-image {
+      margin: 0 auto;
+      max-width: 120px;
+   }
 
 }

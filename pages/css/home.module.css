@@ -8,7 +8,7 @@
     margin: 0 auto;
     height: auto;
     display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .intro {
@@ -128,6 +128,7 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
         display: flex;
         width: 100%;
         max-width: 700px;
+        text-align: left;
     }
     
     .intro {
