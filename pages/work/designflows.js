@@ -90,12 +90,21 @@ function caseStudy() {
                             <p>By Saturday evening I was confident that I had created a sketch that I could work with. I decided to take a break at this point until the next day. It meant I had plenty of time to focus on the high fidelity mocks, icon and presentation poster the next day.</p>
                         </div>
                     </div> 
-                    <div className="row">
-                        <div className="column">
+                    <div className="nopad-row">
+                        <div className="nopad-column">
                             <h1>Mockups</h1>
                             <p>Sunday morning I decided to get an early start, I spent a large chunk of the day working on the mock ups for the required screens to ensure they made sense, even though I wasnt completing a full app I wanted to make sure that it could be added to in the future easily and still make sense.</p>
                         </div>
-                    </div>                
+                    </div>
+                </div>
+                    <div className="outer-row">
+                        <div className="mainContainer">
+                            <div className="column">
+                                <Image src="/appMocks.png" layout="responsive" width="1365" height="879" alt="Preview of how the app mocks were looking" />
+                            </div>
+                        </div>
+                    </div>
+                <div className="mainContainer">               
                 <div className="row">
                     <div className="column">
                         <h1>App icon</h1>
@@ -104,7 +113,19 @@ function caseStudy() {
                         <p>I spent a lot of effort and made many iterations to icon. I ended up settling on a simple icon that used the colour palette from the app to ensure a consistant expereince.</p>
                         <br />
                         <Image src="/iconexploration.png" layout="responsive" width="2000" height="646" alt="Examples of the many icon ideas I explored" />
-                    Add in example of final icon
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="column">
+                        <h1>Icon Decision</h1>
+                        <p>After running through many iterations of the icon I settled on this. The reason for my choice was as follows:<br /><br />
+                        &bull; <b>Unique</b> - I felt some of my ideas had similarities with other large brands, I wanted something that was unique to this project to help with its identity.<br /><br />
+                        &bull; <b>Negative space</b> - I enjoyed playing with the idea of a house in the negative space to help show what the app is about, the negative space could also be seen as an upwards arrow helping to show that the app offers assistance with 'upgrading' your home.<br /><br />
+                        &bull; <b>Simplicity</b> - This icon uses a minimal amount of colour and iconography which I feels gives a clean and simplistic icon.
+                        </p>
+                    </div>
+                    <div className="column">
+                        <Image src="/appStoreMock.png" layout="responsive" width="1024" height="1757" alt="Final icon design" />
                     </div>
                 </div>
                 <div className="row">
