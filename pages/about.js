@@ -20,10 +20,10 @@ function About() {
                         <p>Being a UX designer allows me to solve complex problems and bring the end user a pleasurable experience. I make sure that products are enjoyable, accessible and beautiful to look at. I have a passion for getting fully immersed in a problem and experimenting with a range of possible solutions.</p>
                         <p>Seeing the impact of how I can influence a user's behaviour within a product or application fascinates me. Being empathetic and understanding helps ensure that I can make a product not just work for its intended users but be something they feel comfortable with.</p>
                         <p>I'm always looking for opportunities for collaboration. <a href="mailto:tom.m.spencer+portfolio@gmail.com">Reach out and let's chat!</a></p>
-                        <button className={styles.btnintro}>Download Resume</button>
+                        {/* <button className={styles.btnintro}>Download Resume</button> */}
                     </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                     <div className="column">
                         <h2>Education</h2>
                         <p>Bachelor of Arts - Digital Media Design | 2011</p>
@@ -49,7 +49,7 @@ function About() {
                             Email Marketing Creator
                         </p>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         <Footer />

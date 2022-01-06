@@ -107,6 +107,12 @@ button {
    margin-top: 40px;
 }
 
+button:disabled,
+button[disabled]{
+  border: 1px solid #273959;
+  color: #273959;
+}
+
 .imgRound {
    border-radius: 8px;
    box-shadow: rgba(145, 109, 249, 0.2) 0px 2px 8px 0px;

@@ -88,7 +88,7 @@ function HomePage() {
           <div className={styles.csTitle}>Brewtiful</div>
               <h3>Beer Blog</h3>
               <p>A personal project where I set out to capture a range of beers and breweries and talk about both the beer itself and the can (and bottle) designs.</p>
-              <Link href="/work/brewtiful"><button className="secondary">View Case Study &#x2192;</button></Link>
+              <button className="secondary" disabled>Coming Soon...</button>
           </div>
       </div>
       </div>

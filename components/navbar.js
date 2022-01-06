@@ -11,15 +11,18 @@ function NavBar() {
             </Link>
             <nav className={styles.nav}>
               <ul> 
-                <li>
+                {/* <li>
                   <ActiveLink activeClassName="active" href="/"><a link="/"> Home </a></ActiveLink>
-                </li>
+                </li> */}
                 <li>     
                   <ActiveLink activeClassName="active" href="/#work"><a href="/#work"> Work </a></ActiveLink> 
                 </li>
                 <li>          
                   <ActiveLink activeClassName="active" href="/about"><a link="/about"> About </a></ActiveLink>  
                 </li>
+                <il>
+                  <ActiveLink activeClassName="active" href="/resume"><a link="/resume"> Resume </a></ActiveLink>
+                </il>
               </ul>                      
             </nav>
         </div>
