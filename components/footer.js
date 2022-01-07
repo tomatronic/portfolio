@@ -16,7 +16,7 @@ function Footer() {
                                     <a href="https://dribbble.com/tomatronic" target="_blank" rel="noreferrer"><Dribbble className={styles.email} /></a>
                                     <a href="https://www.linkedin.com/in/thomas-spencer/" target="_blank" rel="noreferrer"><Linkedin className={styles.email} /></a>                   
                                 </div>
-                    Tom Spencer 2021                    
+                    Tom Spencer 2022                   
                 </div>
             </div>
         </div>

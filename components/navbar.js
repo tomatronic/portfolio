@@ -21,7 +21,7 @@ function NavBar() {
                   <ActiveLink activeClassName="active" href="/about"><a link="/about"> About </a></ActiveLink>  
                 </li>
                 <il>
-                  <ActiveLink activeClassName="active" href="/resume"><a link="/resume"> Resume </a></ActiveLink>
+                  <ActiveLink activeClassName="active" href="/resume.pdf"><a link="/resume.pdf" target="_blank" rel="noopener noreferrer"> Resumé </a></ActiveLink>
                 </il>
               </ul>                      
             </nav>
