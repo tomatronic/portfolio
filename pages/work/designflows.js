@@ -8,6 +8,11 @@ import ChevronRight from "@mui/icons-material/ChevronRight";
 function caseStudy() {
     return (
         <>
+        <div>
+          <Head>
+    <title>Tom Spencer - UX/UI Designer</title>
+    <meta property="og:title" content="Tom Spencer - Ux / UI Designer" />
+  </Head>
             <NavBar />
             <div className={styles.csIntroBannerdf} />
             <div className={styles.introContainer}>
@@ -178,6 +183,7 @@ function caseStudy() {
             </div>
 
             <Footer />
+            </div>
         </>
     )
 }

@@ -7,6 +7,12 @@ import ChevronLeft from "@mui/icons-material/ChevronLeft";
 function beerBlog() {
     return (
         <>
+        <div>
+        <Head>
+    <title>Tom Spencer - UX/UI Designer</title>
+    <meta property="og:title" content="Tom Spencer - Ux / UI Designer" />
+  </Head>
+        
             <NavBar />
             <div className={styles.csIntroBannerbb} />
             <div className={styles.introContainer}>
@@ -44,6 +50,7 @@ function beerBlog() {
             </div>
 
             <Footer />
+            </div>
         </>
     )
 }
