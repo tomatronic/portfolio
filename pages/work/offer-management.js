@@ -156,7 +156,7 @@ function caseStudy() {
                         <p>After performing a number of protoype testing sessions I came to the conclusion a couple of further design adjustments were required. This involved a round of iterations to ensure functionality was highlighted in a relevant way and that offers were made easier to compare with existing options.</p>
                     </div>
                     <div className="column">
-                        <Image src="/usertestingOffers.png" layout="responsive" width="1849" height="900" alt="An example of the complex web of interactions created to allow for testing of the prototype" />
+                        <Image src="/usertestingOffers.png" layout="responsive" width="1849" height="900" alt="An example of the complex web of interactions created to allow for testing of the prototype with external users" />
                     </div>
                 </div>
                 <div className="row">
