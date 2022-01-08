@@ -3,9 +3,9 @@ import Link from "next/link"
 import styles from "./css/caseStudy.module.css"
 import Image from "next/image"
 import Footer from "../../components/footer"
-import Comparearrows from "@mui/icons-material/compare_arrows";
-import Search from "@mui/icons-material/Search";
-import People from "@mui/icons-material/People";
+import Compare from "@mui/icons-material/compare";
+import Search from "@mui/icons-material/search";
+import People from "@mui/icons-material/people";
 
 function caseStudy() {
     return (
@@ -95,7 +95,7 @@ function caseStudy() {
                     <div className="nopad-row">
                         <div className="column">
                             <center>
-                                <Comparearrows className="svgIcons" />
+                                <Compare className="svgIcons" />
                                 <p><b>Comparison</b><br />As a user, If I am presented with a new offer invitation I want to be able to compare it to my current offer.</p>
                             </center>
                         </div>
