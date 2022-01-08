@@ -88,25 +88,25 @@ function caseStudy() {
                 <div className="mainContainer">
                     <div className="nopad-row">
                         <div className="nopad-column">
-                        <center><h1>Goals</h1>
-                            <p>As a result of the survey data I was able to identify three main goals to focus on:</p></center>
+                            <center><h1>Goals</h1>
+                                <p>As a result of the survey data I was able to identify three main goals to focus on:</p></center>
                         </div>
                     </div>
                     <div className="nopad-row">
                         <div className="column">
                             <center>
                                 <Comparearrows className="svgIcons" />
-                                    <p><b>Comparison</b><br />As a user, If I am presented with a new offer invitation I want to be able to compare it to my current offer.</p>
+                                <p><b>Comparison</b><br />As a user, If I am presented with a new offer invitation I want to be able to compare it to my current offer.</p>
                             </center>
                         </div>
                         <div className="column">
                             <center>
-                            <Search className="svgIcons" />
-                                <p><b>Discovery</b><br />There was no consistant answer to how a user would find a new offer invitation. Can I make a conistant point of discovery?</p></center>    
+                                <Search className="svgIcons" />
+                                <p><b>Discovery</b><br />There was no consistant answer to how a user would find a new offer invitation. Can I make a conistant point of discovery?</p></center>
                         </div>
                         <div className="column">
                             <center>
-                            <People className="svgIcons" />
+                                <People className="svgIcons" />
                                 <p><b>Partnership status</b><br />The current UI does not offer any identification of partnership status. A user wants to know if a partnership already exists.</p></center>
                         </div>
                     </div>
