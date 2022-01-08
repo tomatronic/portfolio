@@ -8,7 +8,6 @@
     "@mui/styles": "^5.2.3",
     "@svgr/webpack": "^3.1.0",
     "cookie": "^0.4.1",
-    "material-design-icons": "^3.0.1",
     "next": "^11.0.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
