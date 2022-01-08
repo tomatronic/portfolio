@@ -3,6 +3,7 @@ import Link from "next/link"
 import styles from "./css/caseStudy.module.css"
 import Footer from "../../components/footer"
 import ChevronLeft from "@mui/icons-material/ChevronLeft";
+import Head from "next/head"
 
 function beerBlog() {
     return (

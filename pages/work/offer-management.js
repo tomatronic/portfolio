@@ -8,6 +8,7 @@ import Search from "@mui/icons-material/Search";
 import People from "@mui/icons-material/People";
 import ChevronRight from "@mui/icons-material/ChevronRight";
 import ChevronLeft from "@mui/icons-material/ChevronLeft";
+import Head from "next/head"
 
 function caseStudy() {
     return (
