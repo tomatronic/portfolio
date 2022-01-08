@@ -1,7 +1,11 @@
 import NavBar from "../../components/navbar"
+import Link from "next/link"
 import styles from "./css/caseStudy.module.css"
 import Image from "next/image"
 import Footer from "../../components/footer"
+import Comparearrows from "@material-ui/icons/comparearrows";
+import Search from "@material-ui/icons/Search";
+import People from "@material-ui/icons/People";
 
 function caseStudy() {
     return (
@@ -23,27 +27,33 @@ function caseStudy() {
                         <Image src="/topBanner.png" layout="responsive" width="1116" height="766" alt="Small mock of end product" />
                     </div>
                 </div>
-                <div className={`${["row"]} ${styles.bgRow}`}>
-                    <div className="column">
-                        <div>
-                            <h1>My role</h1>
-                            <p>For this project I was the sole UX designer. I worked closely with the product manager to ensure that the end product was as refined as possible and met all goals set.</p><br />
-                            <p><b>Project duration</b>: June 2021 - August 2021</p><br />
+            </div>
+            <div className="outer-row-purple">
+                <div className="mainContainer">
+                    <div className="nopad-row">
+                        <div className="column">
+                            <h1>What I did</h1>
+                            <p>&bull; Sole UX designer on the project<br />
+                                &bull; Stakeholders interviews to identify goals<br />
+                                &bull; User interviews to help understand pain points<br />
+                                &bull; Completed competitor analysis<br />
+                                &bull; Created the information architecture<br />
+                                &bull; Sketched out a variety of initial ideas<br />
+                                &bull; Prototyping and user testing<br />
+                                &bull; High fidelity mockups<br />
+                            </p>
+                        </div>
+                        <div className="column">
+                            <div>
+                                <h1>My role</h1>
+                                <p>For this project I was the sole UX designer. I worked closely with the product manager to ensure that the end product was as refined as possible and met all goals set.</p><br />
+                                <p><b>Project duration</b>: June 2021 - August 2021</p><br />
+                            </div>
                         </div>
                     </div>
-                    <div className="column">
-                        <h1>What I did</h1>
-                        <p>&bull; Sole UX designer on the project<br />
-                            &bull; Stakeholders interviews to identify goals<br />
-                            &bull; User interviews to help understand pain points<br />
-                            &bull; Completed competitor analysis<br />
-                            &bull; Created the information architecture<br />
-                            &bull; Sketched out a variety of initial ideas<br />
-                            &bull; Prototyping and user testing<br />
-                            &bull; High fidelity mockups<br />
-                        </p>
-                    </div>
                 </div>
+            </div>
+            <div className="mainContainer">
                 <div className="row">
                     <div className="column">
                         <h1>Project background</h1>
@@ -61,8 +71,7 @@ function caseStudy() {
                 <div className="row">
                     <div className="column">
                         <h1>Gaining insight</h1>
-                        <p>In order to understand the problem to the fullest I first reviewed the current platform and flows associated with the management of offers. I mapped out the current screens in Miro to have a visual representation of the feature.</p>
-                        <p>It was now time to capture some qualitative data. To do this created a small survey within a google form to distribute amongst the account management teams to help gather a better understanding of how they interacted with this feature, it was also a chance for me to understand known pain points that the team have been presented with over the years. The reason I chose the account managers was due to the level of exposure they have to both the platform and the end users. The personal connection created here often give valuable insight that may not be otherwise captured.</p>
+                        <p>It was now time to capture some qualitative data. To do this created a small survey within a google form to distribute amongst the account management teams to help gather a better understanding of how they interacted with this feature, it was also a chance for me to understand known pain points that the team have been presented with over the years. The reason I chose the account managers was due to the level of exposure they have to both the platform and the end users. The personal connection created here often gives valuable insight that may not be otherwise captured.</p>
                         <p>Once I had a pool of data collated I created a affinity diagram to help group the results I had received, this helped me to identify and prioritise points in the next step of the process. I was also able to follow up with some of the participants to further discuss their inputs. I feel this additional step is important, not only will it ensure that the survey answers are fully understood, it creates an additional layer of empathy to help understand the goal of the project.</p>
                     </div>
                 </div>
@@ -71,23 +80,36 @@ function caseStudy() {
                         <img src="/affinitymap.jpg" alt="The affinity map was created to help understand the results from the completed user surveys" />
                     </div>
                 </div>
-            
-            <div  className={`${["row"]} ${styles.bgRow}`}>
-                <div className="column">
-                    <h1>Goals</h1>
-                    <p>As a result of the survey data I was able to identify three main goals to focus on:</p>
-                    <div>                        
-                        <p><b>Comparison</b><br />As a user, If I am presented with a new offer invitation I want to be able to compare it to my current offer.</p>
+            </div>
+            <div className="outer-row-purple">
+                <div className="mainContainer">
+                    <div className="nopad-row">
+                        <div className="nopad-column">
+                        <center><h1>Goals</h1>
+                            <p>As a result of the survey data I was able to identify three main goals to focus on:</p></center>
+                        </div>
                     </div>
-                    <div>                        
-                        <p><b>Discovery</b><br />There was no consistant answer to how a user would find a new offer invitation. Can I make a conistant point of discovery?</p>
-                    </div>
-                    <div>                        
-                        <p><b>Partnership status</b><br />The current UI does not offer any identification of partnership status. A user wants to know if a partnership already exists.</p>
+                    <div className="nopad-row">
+                        <div className="column">
+                            <center>
+                                <Comparearrows className="svgIcons" />
+                                    <p><b>Comparison</b><br />As a user, If I am presented with a new offer invitation I want to be able to compare it to my current offer.</p>
+                            </center>
+                        </div>
+                        <div className="column">
+                            <center>
+                            <Search className="svgIcons" />
+                                <p><b>Discovery</b><br />There was no consistant answer to how a user would find a new offer invitation. Can I make a conistant point of discovery?</p></center>    
+                        </div>
+                        <div className="column">
+                            <center>
+                            <People className="svgIcons" />
+                                <p><b>Partnership status</b><br />The current UI does not offer any identification of partnership status. A user wants to know if a partnership already exists.</p></center>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+            <div className="mainContainer">
                 <div className="row">
                     <div className="column">
                         <h1>Planning</h1>
@@ -141,6 +163,26 @@ function caseStudy() {
                         <h1>Outcome</h1>
                         <p>Since the updated offer management flow and UI has been implemented we have seen a reduction in the amount of support tickets raised, and account managers have reported less queries based around offer management. The account management have said that this reduction in queries has led to them having more time to focus on the users needs and build better relationships with them.</p>
                         <p>The product has only been released recently so I will continue to monitor usage through the FullStory application, allowing me to perform iterative design amends to ensure a continual progression to the applications development.</p>
+                    </div>
+                </div>
+            </div>
+            <div className="projectNavContainer">
+                <div className="row">
+                    <div className="column">
+                        <Link href="/work/designflows">
+                            <div className="pNavDirection">Previous Project</div>
+                        </Link>
+                        <Link href="/work/designflows">
+                            <div className="pNavName">Tool hire app</div>
+                        </Link>
+                    </div>
+                    <div className="column">
+                        <Link href="/work/beer-blog">
+                            <div className="pNavDirection">Next Project</div>
+                        </Link>
+                        <Link href="/work/beer-blog">
+                            <div className="pNavName">Beer blog</div>
+                        </Link>
                     </div>
                 </div>
             </div>

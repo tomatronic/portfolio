@@ -67,6 +67,10 @@ ul {
    margin: 16px 0;
 }
 
+.svgIcons {
+   font-size: 80px !important;
+}
+
 .mainContainer {
    max-width: 100%;
    margin: 0 auto;
@@ -194,9 +198,21 @@ button[disabled]{
       flex-wrap: wrap;
       width: 100%;
       margin: 40px 0 0;
-      padding: 80px 0px 0px;
+      padding: 0px;
       align-items: center;
-      background-color: #E3E3E3;
+      background-color: #E9C46A;
+   }
+
+   .outer-row-purple {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      margin: 40px 0 0;
+      padding: 0;
+      align-items: center;
+      background-color: #9166d9;
+      color: #FFF;
    }
 
    .reverse-row {
@@ -293,6 +309,43 @@ button[disabled]{
     .column-image {
       margin: 0 auto;
       max-width: 120px;
+   }
+   
+   .projectNavContainer {
+      width: 100%;
+      border-top: 1px solid #e3e3e3;
+   }
+
+   .projectNavContainer .row {
+      margin: 0;
+      padding: 0;
+      column-gap: 0;
+   }
+
+   .projectNavContainer .row .column {
+      margin: 0;
+      padding: 40px;      
+      column-gap: 0;
+   }
+
+   .projectNavContainer .row .column:hover {
+      cursor: pointer;
+   }
+
+   .projectNavContainer .row .column:first-child {
+      border-right: 1px solid #E3E3E3;
+      text-align: right;
+   }
+
+   .pNavDirection{
+      font-size: 16px;
+      color: #E3E3E3;
+      text-transform: uppercase;
+   }
+
+   .pNavName {
+      font-size: 28px;
+      font-weight: bold;
    }
 
 }
