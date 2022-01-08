@@ -3,7 +3,7 @@ import Link from "next/link"
 import styles from "./css/caseStudy.module.css"
 import Image from "next/image"
 import Footer from "../../components/footer"
-import Comparearrows from "@mui/icons-material/comparearrows";
+import Comparearrows from "@mui/icons-material/compare_arrows";
 import Search from "@mui/icons-material/Search";
 import People from "@mui/icons-material/People";
 
