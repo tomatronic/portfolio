@@ -70,6 +70,9 @@ function caseStudy() {
                 </div>
                 <div className="row">
                     <div className="column">
+                        <Image src="/offersForm.png" layout="responsive" width="323" height="1438" alt="The survey that was communicated to candidates" />
+                    </div>
+                    <div className="column">
                         <h1>Gaining insight</h1>
                         <p>It was now time to capture some qualitative data. To do this created a small survey within a google form to distribute amongst the account management teams to help gather a better understanding of how they interacted with this feature, it was also a chance for me to understand known pain points that the team have been presented with over the years. The reason I chose the account managers was due to the level of exposure they have to both the platform and the end users. The personal connection created here often gives valuable insight that may not be otherwise captured.</p>
                         <p>Once I had a pool of data collated I created a affinity diagram to help group the results I had received, this helped me to identify and prioritise points in the next step of the process. I was also able to follow up with some of the participants to further discuss their inputs. I feel this additional step is important, not only will it ensure that the survey answers are fully understood, it creates an additional layer of empathy to help understand the goal of the project.</p>
