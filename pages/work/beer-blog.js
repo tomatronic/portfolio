@@ -1,7 +1,6 @@
 import NavBar from "../../components/navbar"
 import Link from "next/link"
 import styles from "./css/caseStudy.module.css"
-import Image from "next/image"
 import Footer from "../../components/footer"
 import ChevronLeft from "@mui/icons-material/ChevronLeft";
 
