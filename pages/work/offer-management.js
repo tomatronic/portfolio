@@ -3,9 +3,9 @@ import Link from "next/link"
 import styles from "./css/caseStudy.module.css"
 import Image from "next/image"
 import Footer from "../../components/footer"
-import Compare from "@mui/icons-material/compare";
-import Search from "@mui/icons-material/search";
-import People from "@mui/icons-material/people";
+import Compare from "@mui/icons/compare";
+import Search from "@mui/icons/search";
+import People from "@mui/icons/people";
 
 function caseStudy() {
     return (
