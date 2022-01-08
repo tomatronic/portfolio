@@ -3,6 +3,7 @@ import Link from "next/link"
 import styles from "./css/caseStudy.module.css"
 import Image from "next/image"
 import Footer from "../../components/footer"
+import ChevronRight from "@mui/icons-material/ChevronRight";
 
 function caseStudy() {
     return (
@@ -153,19 +154,24 @@ function caseStudy() {
             </div>
             <div className="projectNavContainer">
                 <div className="row">
-                    <div className="column">
-                        
-                            <div className="pNavDirection">&nbsp;</div>
-                        
-                            <div className="pNavName">&nbsp;</div>
-                        
+                    <div className="blank-column">
+
+                        <div className="pNavDirection">&nbsp;</div>
+
+                        <div className="pNavName">&nbsp;</div>
+
                     </div>
                     <div className="column">
                         <Link href="/work/offer-management">
-                            <div className="pNavDirection">Next Project</div>
-                        </Link>
-                        <Link href="/work/offer-management">
-                            <div className="pNavName">Offer management</div>
+                            <div className="pNavButton">
+                                <div className="pNavTopic">
+                                    <div className="pNavDirection">Next Project</div>
+                                    <div className="pNavName">Offer management</div>
+                                </div>
+                                <div className="pNavChevronR">
+                                    <ChevronRight />
+                                </div>
+                            </div>
                         </Link>
                     </div>
                 </div>

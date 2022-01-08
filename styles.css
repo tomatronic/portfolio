@@ -115,6 +115,7 @@ button:disabled,
 button[disabled]{
   border: 1px solid #273959;
   color: #273959;
+  cursor: not-allowed;
 }
 
 .imgRound {
@@ -175,6 +176,100 @@ button[disabled]{
    max-width: 120px;
 }
 
+.outer-row {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+   margin: 40px 0 0;
+   padding: 0px;
+   align-items: center;
+   background-color: #E9C46A;
+}
+
+.outer-row-purple {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+   margin: 40px 0 0;
+   padding: 0;
+   align-items: center;
+   background-color: #9166d9;
+   color: #FFF;
+}
+
+.nopad-row {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   width: 100%;
+   column-gap: 120px;
+   margin: 80px 0 0;
+}
+
+.nopad-column {
+   display: flex;
+   flex-direction: column;
+   flex-basis: 100%;
+   flex: 1;
+   margin: 0 24px;
+   padding: 0 24px;
+}
+
+.projectNavContainer {
+   width: 100%;
+   border-top: 1px solid #e3e3e3;
+}
+
+.projectNavContainer .row {
+   margin: 0;
+   padding: 0;
+   column-gap: 0;
+}
+
+.projectNavContainer .row .column {
+   margin: 0;
+   padding: 40px;      
+   column-gap: 0;
+   transition: 0.3s;
+}
+
+.projectNavContainer .row .blank-column {
+   margin: 0;
+   padding: 40px;      
+   column-gap: 0;
+   transition: 0.3s;
+}
+
+.projectNavContainer .row .column:hover {
+   cursor: pointer;
+   background-color: #916DF9;
+   color: #FFF;
+}
+
+.projectNavContainer .row .column:first-child, .projectNavContainer .row .blank-column:first-child {
+   border-bottom: 1px solid #E3E3E3;
+   text-align: right;
+}
+
+.pNavDirection{
+   font-size: 16px;
+   color: #E3E3E3;
+   text-transform: uppercase;
+}
+
+.pNavName {
+   font-size: 28px;
+   font-weight: bold;
+}
+
+.pNavButton {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
 @media screen and (min-width:600px) {   
    .mainContainer {
        max-width: 1140px;
@@ -190,29 +285,6 @@ button[disabled]{
       column-gap: 120px;
       margin: 80px 0;
       align-items: center;
-   }
-
-   .outer-row {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 100%;
-      margin: 40px 0 0;
-      padding: 0px;
-      align-items: center;
-      background-color: #E9C46A;
-   }
-
-   .outer-row-purple {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      width: 100%;
-      margin: 40px 0 0;
-      padding: 0;
-      align-items: center;
-      background-color: #9166d9;
-      color: #FFF;
    }
 
    .reverse-row {
@@ -282,7 +354,7 @@ button[disabled]{
       margin: 0 24px;
    }
    
-   .column {
+   .column, .blank-column {
       display: flex;
       flex-direction: column;
       flex-basis: 100%;
@@ -310,42 +382,11 @@ button[disabled]{
       margin: 0 auto;
       max-width: 120px;
    }
-   
-   .projectNavContainer {
-      width: 100%;
-      border-top: 1px solid #e3e3e3;
-   }
 
-   .projectNavContainer .row {
-      margin: 0;
-      padding: 0;
-      column-gap: 0;
-   }
-
-   .projectNavContainer .row .column {
-      margin: 0;
-      padding: 40px;      
-      column-gap: 0;
-   }
-
-   .projectNavContainer .row .column:hover {
-      cursor: pointer;
-   }
-
-   .projectNavContainer .row .column:first-child {
+   .projectNavContainer .row .column:first-child, .projectNavContainer .row .blank-column:first-child {
       border-right: 1px solid #E3E3E3;
+      border-bottom: none;
       text-align: right;
-   }
-
-   .pNavDirection{
-      font-size: 16px;
-      color: #E3E3E3;
-      text-transform: uppercase;
-   }
-
-   .pNavName {
-      font-size: 28px;
-      font-weight: bold;
    }
 
 }

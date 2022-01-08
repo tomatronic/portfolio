@@ -6,6 +6,8 @@ import Footer from "../../components/footer"
 import Compare from "@mui/icons-material/Compare";
 import Search from "@mui/icons-material/Search";
 import People from "@mui/icons-material/People";
+import ChevronRight from "@mui/icons-material/ChevronRight";
+import ChevronLeft from "@mui/icons-material/ChevronLeft";
 
 function caseStudy() {
     return (
@@ -68,14 +70,14 @@ function caseStudy() {
                         <Image src="/legacy1.png" layout="responsive" width="1346" height="1841" alt="The legacy dashboard offer invitation screen" />
                     </div>
                 </div>
-                <div className="row">
-                    <div className="column">
-                        <Image src="/offersForm.png" layout="responsive" width="323" height="1438" alt="The survey that was communicated to candidates" />
-                    </div>
+                <div className="reverse-row">
                     <div className="column">
                         <h1>Gaining insight</h1>
-                        <p>It was now time to capture some qualitative data. To do this created a small survey within a google form to distribute amongst the account management teams to help gather a better understanding of how they interacted with this feature, it was also a chance for me to understand known pain points that the team have been presented with over the years. The reason I chose the account managers was due to the level of exposure they have to both the platform and the end users. The personal connection created here often gives valuable insight that may not be otherwise captured.</p>
+                        <p>It was now time to capture some qualitative data. To do this created a small survey within a google form (click the image to view the full survey) to distribute amongst the account management teams to help gather a better understanding of how they interacted with this feature, it was also a chance for me to understand known pain points that the team have been presented with over the years. The reason I chose the account managers was due to the level of exposure they have to both the platform and the end users. The personal connection created here often gives valuable insight that may not be otherwise captured.</p>
                         <p>Once I had a pool of data collated I created a affinity diagram to help group the results I had received, this helped me to identify and prioritise points in the next step of the process. I was also able to follow up with some of the participants to further discuss their inputs. I feel this additional step is important, not only will it ensure that the survey answers are fully understood, it creates an additional layer of empathy to help understand the goal of the project.</p>
+                    </div>
+                    <div className="column">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc6gpi8XoE7ODNskrNgo91T5mZLrLipiL0NYczPtvc-L4zKIw/viewform" target="_blank" rel="noreferrer"><Image src="/offersForm.png" layout="responsive" width="944" height="1422" alt="The survey that was communicated to candidates" /></a>
                     </div>
                 </div>
                 <div className="nopad-row">
@@ -173,18 +175,28 @@ function caseStudy() {
                 <div className="row">
                     <div className="column">
                         <Link href="/work/designflows">
-                            <div className="pNavDirection">Previous Project</div>
+                            <div className="pNavButton">
+                                <ChevronLeft />
+                                <div className="pNavTopic">
+                                    <div className="pNavDirection">Previous Project</div>
+                                    <div className="pNavName">Tool hire app</div>
+                                </div>
+
+                            </div>
                         </Link>
-                        <Link href="/work/designflows">
-                            <div className="pNavName">Tool hire app</div>
-                        </Link>
+
                     </div>
                     <div className="column">
                         <Link href="/work/beer-blog">
-                            <div className="pNavDirection">Next Project</div>
-                        </Link>
-                        <Link href="/work/beer-blog">
-                            <div className="pNavName">Beer blog</div>
+                            <div className="pNavButton">
+                                <div className="pNavTopic">
+                                    <div className="pNavDirection">Next Project</div>
+                                    <div className="pNavName">Beer blog</div>
+                                </div>
+                                <div className="pNavChevronR">
+                                    <ChevronRight />
+                                </div>
+                            </div>
                         </Link>
                     </div>
                 </div>
