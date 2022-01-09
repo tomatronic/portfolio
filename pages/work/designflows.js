@@ -103,6 +103,9 @@ function caseStudy() {
                             <p>I begun with some really rough sketches that I could then iterate on if I felt they had enough potential. This allowed me to complete a lot more sketches in a much shorter amount of time.</p>
                             <p>By Saturday evening I was confident that I had created a sketch that I could work with. I decided to take a break at this point until the next day. It meant I had plenty of time to focus on the high fidelity mocks, icon and presentation poster the next day.</p>
                         </div>
+                        <div className="column">
+                            <Image src="/sketch.png" layout="responsive" width="1421" height="1000" alt="An example of sketches completed for the first screen of the app" />
+                        </div>
                     </div>
                     <div className="nopad-row">
                         <div className="nopad-column">
