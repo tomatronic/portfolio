@@ -6,23 +6,20 @@ import Head from "next/head"
 function MyApp({ Component, pageProps }) {
   return (
     <>
-    <div>
-
     <Script
         strategy="lazyOnload"
-        src={`https://www.googletagmanager.com/gtag/js?id=G-CCDKVM70NV`}
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
       />
-
       <Script strategy="lazyOnload">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-CCDKVM70NV');
+          gtag('config', ${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS});
         `}
       </Script>
-
+    <div>      
       <Head>
         <meta charSet="UTF-8" />
         <meta name="keywords" content="UX, User Experience, UI, User Interface, Tom Spencer, UK, Brighton" />
