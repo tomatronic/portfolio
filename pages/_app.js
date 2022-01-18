@@ -1,24 +1,28 @@
-import "../styles.css"
-import Script from "next/script"
-import Head from "next/head"
+import "../styles.css";
+import Script from "next/script";
+import Head from "next/head";
 
 // This default export is required in a new `pages/_app.js` file.
 function MyApp({ Component, pageProps }) {
+
   return (
     <>
     <div>
-    <Script
+    
+<Script
   strategy="lazyOnload"
-  src={`https://www.googletagmanager.com/gtag/js?id=G-CCDKVM70NV`}
+  src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
 />
 <Script strategy="lazyOnload">
-  {`
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-CCDKVM70NV');
-  `}
-</Script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+        `}
+      </Script>
+
       <Head>
         <title>Tom Spencer - UX/UI Designer</title>
         <meta property="og:title" content="Tom Spencer - UX / UI Designer" />
