@@ -29,6 +29,7 @@ function MyApp({ Component, pageProps }) {
         <meta charSet="UTF-8" />
         <meta name="keywords" content="UX, User Experience, UI, User Interface, Tom Spencer, UK, Brighton" />
         <meta name="author" content="Tom Spencer" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
     </div>
     <Component {...pageProps} />
