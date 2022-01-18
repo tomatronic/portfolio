@@ -20,7 +20,8 @@ function MyApp({ Component, pageProps }) {
   `}
 </Script>
       <Head>
-
+        <title>Tom Spencer - UX/UI Designer</title>
+        <meta property="og:title" content="Tom Spencer - UX / UI Designer" />
         <meta charSet="UTF-8" />
         <meta name="keywords" content="UX, User Experience, UI, User Interface, Tom Spencer, UK, Brighton" />
         <meta name="author" content="Tom Spencer" />

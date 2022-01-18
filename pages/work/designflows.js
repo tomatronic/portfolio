@@ -10,10 +10,7 @@ function caseStudy() {
     return (
         <>
             <div>
-                <Head>
-                    <title>Tom Spencer - UX/UI Designer</title>
-                    <meta property="og:title" content="Tom Spencer - Ux / UI Designer" />
-                </Head>
+                <Head />
                 <NavBar />
                 <div className={styles.csIntroBannerdf} />
                 <div className={styles.introContainer}>
