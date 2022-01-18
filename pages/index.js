@@ -35,7 +35,7 @@ function HomePage() {
           <div className="top-row-intro">
             <div className="column-image">
               <div className={styles.introImg}>
-                <img src="/tomspencer.png" alt="Tom Spencer - UX/UI Designer" width="120" />
+                <Link href="/about"><img src="/tomspencer.png" alt="Tom Spencer - UX/UI Designer" width="120" /></Link>
               </div>
             </div>
             <div className="column">

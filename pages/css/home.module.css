@@ -23,6 +23,15 @@
     width: 120px;
     border-radius: 100%;
     box-shadow: rgba(145, 109, 249, 0.2) 0px 2px 8px 0px;
+    transition: all .25s ease-in-out;
+    overflow: hidden;
+}
+
+.introImg:hover {
+    cursor: pointer;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: rgba(145, 109, 249, 0.4) 0px 2px 40px 0px;
+
 }
 
 .btnintro {
