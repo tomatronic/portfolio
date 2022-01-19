@@ -1,4 +1,4 @@
-import NavBar from "../../components/navbar"
+/* import NavBar from "../../components/navbar"
 import Link from "next/link"
 import styles from "./css/caseStudy.module.css"
 import Image from "next/image"
@@ -189,4 +189,4 @@ function caseStudy() {
     )
 }
 
-export default caseStudy
+export default caseStudy */
