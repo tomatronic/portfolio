@@ -23,7 +23,8 @@ function HomePage() {
     }
   })
 
-  return <>
+  return
+  <>
     <div>
       <Head>
         <title>Tom Spencer - UX/UI Designer</title>
