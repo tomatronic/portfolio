@@ -23,8 +23,7 @@ function HomePage() {
     }
   })
 
-  return
-  <>
+  return <>
     <div>
       <Head>
         <title>Tom Spencer - UX/UI Designer</title>
@@ -87,7 +86,7 @@ function HomePage() {
           </div>
         </div>
         </Link>
-        {/* <Link href="/work/brewtiful"> */}
+        <Link href="/work/brewtiful">
         <div className={` ${'row'} , ${styles.caseStudy}`}>
           <div className="column">
             <img src="/169brewtiful.png" alt="Brewtiful - My own project looking at beers and design" className={styles.imgRound} />
@@ -100,7 +99,7 @@ function HomePage() {
           </div>
         </div>
       </div>
-      {/* </Link> */}
+      </Link>
       <Footer />
     </div>
   </>
