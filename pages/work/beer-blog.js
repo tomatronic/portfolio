@@ -1,4 +1,4 @@
-/* import NavBar from "../../components/navbar"
+import NavBar from "../../components/navbar"
 import Link from "next/link"
 import Image from "next/image"
 import styles from "./css/caseStudy.module.css"
@@ -87,4 +87,4 @@ function beerBlog() {
     )
 }
 
-export default beerBlog */
+export default beerBlog
