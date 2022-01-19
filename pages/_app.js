@@ -1,5 +1,5 @@
 import "../styles.css";
-import Script from "next/script";
+// import Script from "next/script";
 import Head from "next/head";
 
 // This default export is required in a new `pages/_app.js` file.
@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <>
     <div>
     
-<Script
+{/* <Script
   strategy="lazyOnload"
   src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
 />
@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
 
           gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
         `}
-      </Script>
+      </Script> */}
 
       <Head>
         <title>Tom Spencer - UX/UI Designer</title>
