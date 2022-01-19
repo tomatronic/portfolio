@@ -6,8 +6,6 @@ import React from "react"
 import Head from "next/head"
 
 function HomePage() {
-
-
   React.useEffect(() => {
     const path = window.location.hash
     if (path && path.includes("#")) {
