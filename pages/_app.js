@@ -1,23 +1,9 @@
 import "../styles.css";
-import { useEffect } from "react";
 import Script from "next/script";
-import { useRouter } from "next/router";
 import Head from "next/head";
-import * as gtag from "../lib/gtag";
 
 // This default export is required in a new `pages/_app.js` file.
 function MyApp({ Component, pageProps }) {
-  
-  const router = useRouter();
-  useEffect(() => {
-    const handleRouteChange = (url) => {
-      gtag.pageview(url);
-    };
-    router.events.on("routeChangeComplete", handleRouteChange);
-    return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
 
   return (
     <>
@@ -25,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     
 <Script
   strategy="lazyOnload"
-  src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+  src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
 />
 <Script strategy="lazyOnload">
         {`
@@ -33,9 +19,7 @@ function MyApp({ Component, pageProps }) {
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', '${gtag.GA_TRACKING_ID}', {
-            page_path: window.location.pathname,
-          });
+          gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
         `}
       </Script>
 
