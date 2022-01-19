@@ -44,22 +44,12 @@
     max-width: 600px;
 }
 
-.highlight {
-    display: inline;
-    text-decoration: underline;
-    text-decoration-color: #3EE8B5;
-    text-decoration-style: wavy;
-    font-weight: bold;    
-}
-
 .keyPoint {
     display: inline;
 }
 
 .keyPoint span:hover {
     color: #3EE8B5;
-    font-style: italic;
-    font-weight: 600;
 }
 
 a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
@@ -67,20 +57,23 @@ a:hover .caseStudy, a:hover .caseStudyRight, a:hover .caseStudy3 {
     transition: 0.3s;
 }
 
+.imgRound {
+    border-radius: 8px;
+    box-shadow: rgba(145, 109, 249, 0.2) 0px 2px 8px 0px;
+    transition: 0.2s;
+     margin: 10px;
+    overflow: hidden;
+    cursor: pointer;
+ }
+
 .caseStudy {
-    background-image: url("../../public/offerManagementMock.png");
-    height: 350px;
-    background-position: 100% 100%;
-    background-repeat: no-repeat; 
-    background-size: auto 325px;
-    background-origin: content-box;
-    max-width: 1200px;
-    padding: 0 24px;
-    color: #FFF;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
     transition: 0.3s;
+    overflow: hidden;
+}
+
+
+.caseStudy:hover .imgRound {
+    transform: scale(1.02);
 }
 
 .section{

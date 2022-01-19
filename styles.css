@@ -17,6 +17,7 @@ body {
 }
 
 a {
+   position: relative;
    color: #55C1FF;
    text-decoration: none;
    cursor: pointer;
@@ -25,6 +26,24 @@ a {
 a:hover {
    text-decoration: none;
 }
+
+a::before {
+   content: "";
+   position: absolute;
+   display: block;
+   width: 100%;
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: #55C1FF;
+   transform: scaleX(0);
+   transform-origin: top left;
+   transition: transform 0.3s ease;
+ }
+
+ a:hover::before {
+   transform: scaleX(1);
+ }
 
 h1 {
    font-size: 36px;
@@ -121,6 +140,16 @@ button[disabled]{
 .imgRound {
    border-radius: 8px;
    box-shadow: rgba(145, 109, 249, 0.2) 0px 2px 8px 0px;
+   -webkit-transition-duration: 0.8s;
+   -moz-transition-duration: 0.8s;
+   -o-transition-duration: 0.8s;
+   transition-duration: 0.8s;    
+   -webkit-transition-property: -webkit-transform;
+   -moz-transition-property: -moz-transform;
+   -o-transition-property: -o-transform;
+   transition-property: transform;
+    margin: 10px;
+   overflow: hidden;
 }
 
 .underline {

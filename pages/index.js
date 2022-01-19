@@ -42,8 +42,8 @@ function HomePage() {
               <div className={styles.blurb}>Hi, I'm</div>
               <div className={styles.intro}>Tom Spencer.</div>
               <div className={styles.blurb}>
-                <br /><div className={styles.highlight}>UX/UI designer
-                </div>
+                <br /><b>UX/UI designer
+                </b>
                 &nbsp;focused on delivering <div className={styles.keyPoint}><span>effective</span></div> user centric designs that drive engagement.<br /><br />Currently UX Designer @ <b>Rakuten Advertising</b>.<br /><br /><br />
               </div>
 
@@ -58,31 +58,38 @@ function HomePage() {
       </div>
       <a name="work" id="work" />
       <div className="mainContainer">
-        <div className="row">
+      <Link href="/work/designflows">
+        <div className={` ${'row'} , ${styles.caseStudy}`}>
+        
           <div className="column">
-            <Link href="/work/designflows"><img src="/169competition.png" alt="Designflows 2021 - Coming Soon" className="imgRound" /></Link>
+            <img src="/169competition.png" alt="Designflows 2021 - Coming Soon" className={styles.imgRound} />
           </div>
           <div className="column">
             <div className={styles.csTitle}>Designflows 2021</div>
             <h3>Tool Hire App</h3>
             <p>A competition project to create a unique UI within a short amount of time.</p>
-            <Link href="/work/designflows"><button className="secondary">View Case Study &#x2192;</button></Link>
+            <button className="secondary">View Case Study &#x2192;</button>
           </div>
-        </div>
-        <div className="row">
+          
+        </div> 
+        </Link>
+        <Link href="/work/offer-management">
+        <div className={` ${'row'} , ${styles.caseStudy}`}>
           <div className="column">
-            <Link href="/work/offer-management"><img src="/169offers.png" alt="Offer management section of the new dashboard for Rakuten Advertising" className="imgRound" /></Link>
+            <img src="/169offers.png" alt="Offer management section of the new dashboard for Rakuten Advertising" className={styles.imgRound} />
           </div>
           <div className="column">
             <div className={styles.csTitle}>Rakuten Advertising</div>
             <h3>Offer Management</h3>
             <p>The updating of a legacy application to offer a modern experience for the user.</p>
-            <Link href="/work/offer-management"><button className="secondary">View Case Study &#x2192;</button></Link>
+            <button className="secondary">View Case Study &#x2192;</button>
           </div>
         </div>
-        <div className="row">
+        </Link>
+        {/* <Link href="/work/brewtiful"> */}
+        <div className={` ${'row'} , ${styles.caseStudy}`}>
           <div className="column">
-            <Link href="/work/brewtiful"><img src="/169brewtiful.png" alt="Brewtiful - My own project looking at beers and design" className="imgRound" /></Link>
+            <img src="/169brewtiful.png" alt="Brewtiful - My own project looking at beers and design" className={styles.imgRound} />
           </div>
           <div className="column">
             <div className={styles.csTitle}>Brewtiful</div>
@@ -92,6 +99,7 @@ function HomePage() {
           </div>
         </div>
       </div>
+      {/* </Link> */}
       <Footer />
     </div>
   </>
