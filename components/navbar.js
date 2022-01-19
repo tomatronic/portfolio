@@ -10,16 +10,19 @@ function NavBar() {
               <a link="/" className={styles.logo}>TOM SPENCER.</a>
             </Link>
             <nav className={styles.nav}>
-              <ul>                
+              <ul> 
+                {/* <li>
+                  <ActiveLink activeClassName="active" href="/"><a link="/"> Home </a></ActiveLink>
+                </li> */}
                 <li>     
                   <ActiveLink activeClassName="active" href="/#work"><a href="/#work"> Work </a></ActiveLink> 
                 </li>
                 <li>          
                   <ActiveLink activeClassName="active" href="/about"><a link="/about"> About </a></ActiveLink>  
                 </li>
-                <li>
+                <il>
                   <ActiveLink activeClassName="active" href="/resume.pdf"><a link="/resume.pdf" target="_blank" rel="noopener noreferrer"> Resumé </a></ActiveLink>
-                </li>
+                </il>
               </ul>                      
             </nav>
         </div>
