@@ -19,8 +19,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^11.1.0",
