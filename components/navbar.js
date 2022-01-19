@@ -1,10 +1,10 @@
 import styles from "../pages/css/navbar.module.css"
 import Link from "next/link"
-import ActiveLink from "./activeNav"
+// import ActiveLink from "./activeNav"
 
 function NavBar() {
     return <>
-    <div className={styles['site-header']}>
+    {/* <div className={styles['site-header']}>
       <div className={`${styles.wrapper} , ${styles['site-header__wrapper']}`}>
             <Link href="/">
               <a link="/" className={styles.logo}>TOM SPENCER.</a>
@@ -23,7 +23,7 @@ function NavBar() {
               </ul>                      
             </nav>
         </div>
-    </div>
+    </div> */}
     </>
     
   }
